@@ -1,0 +1,53 @@
+sample_id,project_id,text,label_code,label_name,fold
+REQ_0021,3,The system shall achieve 95% up time.,A,availability,7
+REQ_0025,46,The system shall provide a contractual agreement with an internet service provider for T3 access with 99.9999% availability.,A,availability,7
+REQ_0030,8,The website shall be available for use 24 hours per day 365 days per year.,A,availability,7
+REQ_0039,6,The product shall create an exception log of problems encountered within the product for transmission to our company for analysis and resolution.,FT,fault_tolerance,7
+REQ_0043,38,The system shall accommodate high number of items and users without any fault.,FT,fault_tolerance,7
+REQ_0050,4,All actions that modify an existing dispute case must be recorded in the case history.,L,legal,7
+REQ_0085,5,The product shall comply with corporate color scheme,LF,look_and_feel,7
+REQ_0088,6,The product shall have a conservative and professional appearance.,LF,look_and_feel,7
+REQ_0090,12,The product shall provide GUI based Monitoring Services.System Administrators shall monitor message exchanges will predict and determine problems and will also provide internal and external support.,LF,look_and_feel,7
+REQ_0097,46,The system shall provide a uniform look and feel between all the web pages.,LF,look_and_feel,7
+REQ_0100,16,The system shall use a text-based interface to display a listing of available mail.,LF,look_and_feel,7
+REQ_0118,23,Changes made to the Manage My ID website can be adopted without altering the iOS application.,MN,maintainability,7
+REQ_0119,15,Changes to revenue and expense formulae must be applied to the RFS system every year prior to the budgeting process start. Revenue and expense formulae will be updated within one week of their receipt after which 2 weeks will be allotted to testing of the budget calculations to be conducted jointly by the project development team and PCG Finance.,MN,maintainability,7
+REQ_0124,8,Promotional updates to the website should take a day to update.,MN,maintainability,7
+REQ_0151,8,Movies shall be encoded for 56k and 256k streams.,O,operational,7
+REQ_0152,5,Product installations and upgrades shall be handled by the middleware technology team within established launch time frames.,O,operational,7
+REQ_0158,4,The Disputes application shall interface with the Statement Database. The Statement Database provides the transaction details to the Disputes System. All transaction details must be obtained from the Statement Database,O,operational,7
+REQ_0182,6,The product shall be available for distribution as a packaged CD.,O,operational,7
+REQ_0203,3,The system shall interface with the student master server.,O,operational,7
+REQ_0205,16,The system shall use the SMTP mail protocol.,O,operational,7
+REQ_0214,8,Website must interface with the CyberSource API to process credit card transactions.,O,operational,7
+REQ_0219,8,Customer shall be able to check the status of their prepaid card by entering in the PIN number in under 5 seconds.,PE,performance,7
+REQ_0229,29,Responses to view information shall take no longer than 5 seconds to appear on the screen.,PE,performance,7
+REQ_0231,8,System shall let Izogn Manager access sales and usage statistics in under 2 minutes.,PE,performance,7
+REQ_0244,48,The application should be able to support 100 concurrent users without any performance degradation.,PE,performance,7
+REQ_0249,15,The product interface should be fast. The response time of the product interface should not exceed 2 seconds 90% of the time. For 10% of the time the response time should not be more than 10 seconds.not be more than 10 seconds.,PE,performance,7
+REQ_0256,12,The product shall provide Asynchronous Messaging.The product shall provide asynchronous messaging to enable parallel processing and reduce the overhead in communications,PE,performance,7
+REQ_0277,45,The web application shall add no more than 5 seconds of perceivable overhead time to any necessary web and database transaction time.,PE,performance,7
+REQ_0282,34,An end-user may use this system on any OS; either it is Windows or Linux.,PO,portability,7
+REQ_0294,13,The WCS system shall have the ability to connect other designated WCS databases currently not included in the system.,SC,scalability,7
+REQ_0313,48,The system should be able to scale up to 500 concurrent users (if there is a need in the future) by installing additional hardware components.,SC,scalability,7
+REQ_0317,8,A customer can only stream a movie if they purchased it and are within the 2 day viewing period.,SE,security,7
+REQ_0326,4,All additions of new users and modifications to user92s access shall be recorded on the User Report.,SE,security,7
+REQ_0330,8,All customer information will be stored on a secure database accessible only to authorized personnel.,SE,security,7
+REQ_0340,32,Each account must securely store all of its data.,SE,security,7
+REQ_0343,37,Every user of the software is provided a unique login ID and a password which is stored in the database hashed by SHA2 algorithm.,SE,security,7
+REQ_0348,4,If a user account is revoked it can only be re-instantiated by the System Administrator.,SE,security,7
+REQ_0366,4,Only the System Administrator shall be able to reset a revoked user logon account,SE,security,7
+REQ_0378,38,System will use secured database,SE,security,7
+REQ_0386,7,The System shall granularly control access rights to all major subsystems. It should be possible to assign access rights to all subsystems independently.,SE,security,7
+REQ_0388,13,The WCS system shall not allow automatic logins by any user. Cookies containing WCS login information about a user will not be stored on a user92s computer.,SE,security,7
+REQ_0389,32,The application must log the user out when it is exited.,SE,security,7
+REQ_0434,8,The website shall protect itself from intentional abuse and notify the administrator at all occurrences.,SE,security,7
+REQ_0437,15,User access should be limited to the permissions granted to their role(s) Each level in the PCG hierarchy will be assigned a role and users will be assigned to these roles. Access to functionality within RFS system is dependent on the privileges/permission assigned to the role..,SE,security,7
+REQ_0449,13,A user shall be able to use the system without instruction after a short amount of time. After one use a user should understand and remember 90% of the system usage and navigation.,US,usability,7
+REQ_0455,6,Every registered user will have access to the product92s support site via the Internet. 70% of registered users shall find a solution to their problem within 5 minutes of using the support site.,US,usability,7
+REQ_0457,1,If projected the data must be understandable. On a 10x10 projection screen 90% of viewers must be able to determine that Events or Activities are occuring in current time from a viewing distance of 100,US,usability,7
+REQ_0484,5,The product shall increase productivity of Collision Estimators. 80% of the Collision Estimators shall agree their productivity has increase within 1 month of using the product.,US,usability,7
+REQ_0485,6,The product shall make the users want to use it. 80% of the users surveyed report they are regularly using the product after the first 2 weeks post-launch.,US,usability,7
+REQ_0507,3,The system shall help the user avoid making mistakes while scheduling classes and clinicals for the nursing students.,US,usability,7
+REQ_0519,8,The website will provide a help section with answers and solutions to common problems.,US,usability,7
+REQ_0520,8,The website will use standard Internet conventions when interacting with the user.,US,usability,7

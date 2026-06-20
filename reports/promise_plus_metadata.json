@@ -1,0 +1,20 @@
+{
+  "source": "data\\raw\\Promise+.arff",
+  "all_rows": 2708,
+  "nfr_rows": 894,
+  "classes": [
+    "availability",
+    "fault_tolerance",
+    "legal",
+    "look_and_feel",
+    "maintainability",
+    "operational",
+    "performance",
+    "portability",
+    "scalability",
+    "security",
+    "usability"
+  ],
+  "test_size": 0.3,
+  "seed": 42
+}

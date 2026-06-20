@@ -1,0 +1,54 @@
+sample_id,project_id,text,label_code,label_name,fold
+REQ_0011,24,The application should be connected to the GPS device.,A,availability,2
+REQ_0013,5,The product shall achieve a 98% uptime. The product shall not fail more than 2% of the available online time.,A,availability,2
+REQ_0031,8,Velkat staff will be available for phone support between 7am-7pm M-F to provide technical support to the Izogn administrators.,A,availability,2
+REQ_0033,29,ABS shall handle all expected and unexpected errors in ways that prevent loss in information and long downtime period.,FT,fault_tolerance,2
+REQ_0044,29,The system shall accommodate large data items without fault.,FT,fault_tolerance,2
+REQ_0053,8,IzognMovies shall meet the licensing requirements set forth by the appropriate organizations in order to stream African movies.,L,legal,2
+REQ_0064,8,The website will comply with W3C standards.,L,legal,2
+REQ_0078,15,The intranet pages should display appropriately in all resolutions from 800x600 and higher. The display of all the pages will be correct in 95% of the resolutions prior to implementation. The remaining 5% will be corrected within a week of notification of the incorrect display.,LF,look_and_feel,2
+REQ_0083,12,The product shall comply with City of Chicago Application Development Guide Framework.Application Development Framework will provide structured Graphical User Interface.,LF,look_and_feel,2
+REQ_0094,27,The system shall be able to display a menu at all times to facilitate manual order taking should the need arise.,LF,look_and_feel,2
+REQ_0099,13,The system shall use IBM and CCR branding standards. The interface must have one IBM logo and one CCR logo.,LF,look_and_feel,2
+REQ_0105,8,The website shall be attractive to all audiences. The website shall appear to be fun and the colors should be bright and vibrant.,LF,look_and_feel,2
+REQ_0121,6,Maintenance releases will be offered to customers once a year. The releases shall take no longer than 5 minutes for 80% of the customer base to install.,MN,maintainability,2
+REQ_0122,14,New System version releases shall be released at the beginning of each NFL season.,MN,maintainability,2
+REQ_0142,14,A secondary database will be used to store historical statistics and data.,O,operational,2
+REQ_0162,7,The System shall not require additional third party licenses resulting in royalty fees.,O,operational,2
+REQ_0163,7,The System shall utilize currently owned computer equipment.,O,operational,2
+REQ_0178,6,The product must work with most database management systems (DBMS) on the market whether the DBMS is colocated with the product on the same machine or is located on a different machine on the computer network.,O,operational,2
+REQ_0192,6,The product will be available for licensing as a one-server two-five servers or five-or-more servers license.,O,operational,2
+REQ_0207,35,The system should be able to manage all the information incoming from the database and the catalogue.,O,operational,2
+REQ_0208,33,The system should have to keep the location where the doughnut will be send.,O,operational,2
+REQ_0210,8,The website should use Flash to provide animation on the home page.,O,operational,2
+REQ_0224,9,No lead evaluation will complete in a time period longer than 25 seconds for 97% of all leads processed.,PE,performance,2
+REQ_0227,7,Recreation of Inventory Quantity Adjustment for the period of previous 30 days shall take no more than 30min.,PE,performance,2
+REQ_0234,8,System shall let administrators generate unique pre-paid pins in under 2 minutes and generate an Excel file with the generated PINs.,PE,performance,2
+REQ_0241,4,The Disputes application shall support 350 concurrent users without any degradation of performance in the application.,PE,performance,2
+REQ_0258,12,The product shall provide Multi-threading and Load Balancing.The product shall provide multi-threading technology as well as load balancing to overcome data load spikes and traffic.,PE,performance,2
+REQ_0269,5,The search for the preferred repair facility shall take no longer than 8 seconds. The preferred repair facility is returned within 8 seconds,PE,performance,2
+REQ_0284,35,The Web interface should be compatible with standards in order to be usable via all major Web browsers in a wide variety of environments.,PO,portability,2
+REQ_0293,28,The system will support mobile users in some way.,PO,portability,2
+REQ_0304,2,The product shall be capable of handling the existing 1000 users. This number is expected to grow 5 times within the next year.,SC,scalability,2
+REQ_0314,8,The website shall be capable of supporting 100 000 customers.,SC,scalability,2
+REQ_0353,5,Only adjusters can request recycled parts audit reports. No users without an adjuster role shall request recycled parts audits.,SE,security,2
+REQ_0356,8,Only authorized personnel can access customer records in the database.,SE,security,2
+REQ_0357,8,Only authorized personnel can access sales information.,SE,security,2
+REQ_0360,3,Only authorized users shall have access to students92 personal information.,SE,security,2
+REQ_0364,8,Only registered customers can purchase streaming movies.,SE,security,2
+REQ_0384,4,The Disputes application shall manipulate and view business data. Users will not have direct access to data files or databases.,SE,security,2
+REQ_0393,1,The product shall ensure that it can only be accessed by authorized users. The product will be able to distinguish between authorized and unauthorized users in all access attempts,SE,security,2
+REQ_0401,12,The product shall have security.The product shall provide authentication and authorization.,SE,security,2
+REQ_0412,3,The system shall have basic data integrity checking to reduce the possibility of incorrect or invalid data being introduced.,SE,security,2
+REQ_0421,46,The system shall use secure sockets in all transactions that include any confidential customer information.,SE,security,2
+REQ_0433,8,The website shall prevent its data from being corrupted when incorrect data is entered in.,SE,security,2
+REQ_0440,45,Users shall be required to log into the system for all operations except the operations on the login page.,SE,security,2
+REQ_0451,3,All of the users shall be able to use the system after one day of training.,US,usability,2
+REQ_0454,6,An employee will be able to successfully use the product within a few minutes. After informally navigating the product for less than 15 minutes users shall be able to successfully setup meetings and reserve conference rooms.,US,usability,2
+REQ_0458,48,It should not take more than 120 seconds for a new user to register for an account.,US,usability,2
+REQ_0465,4,The list of dispute cases that are displayed after a search is performed must be color coded for easy identification of dispute cases based upon the dispute case status.,US,usability,2
+REQ_0475,5,The product shall be easy to learn by Adjusters and Collision Estimators. The product shall be learned with two days onsite training,US,usability,2
+REQ_0492,8,The product shall use symbols and words that are naturally understandable by users familiar with websites,US,usability,2
+REQ_0508,46,The system shall provide a digital image for each product in the product catalog.,US,usability,2
+REQ_0515,48,The user interface of the system should be very user friendly.,US,usability,2
+REQ_0523,5,Users shall feel satisfied using the product. 85% of all users will be satisfied with the product.,US,usability,2

@@ -1,0 +1,54 @@
+sample_id,project_id,text,label_code,label_name,fold
+REQ_0002,19,All the functions of the system must be available to the user every time the system is turned on.,A,availability,5
+REQ_0014,5,The product shall adhere to the corporate online availability schedule. The application is brought down only within 98% of the scheduled outages per the availability schedule.,A,availability,5
+REQ_0028,33,The website is available whenever the users want to use it.,A,availability,5
+REQ_0037,12,The product shall be robust with fault tolerance.The product shall have fault tolerance by using recovery technique compensatory transaction and routing around failures.,FT,fault_tolerance,5
+REQ_0040,2,The product shall operate in offline mode whenever internet connection is unavailable.,FT,fault_tolerance,5
+REQ_0063,5,The product shall comply with the estimatics laws relating to recycled parts usage.,L,legal,5
+REQ_0075,13,The interface must summarize the data in a fashion that92s appealing to CCR management. Every report type must have at least one high level summary shown in the results dashboard/interface,LF,look_and_feel,5
+REQ_0077,11,The interface shall have a simple look. In the interface and usability survey 90% of beta testers must report that the interface is adequately simple.,LF,look_and_feel,5
+REQ_0081,14,The message board shall contain the 5 most recently posted messages on the league page. The messages will contain up to the first 150 characters of the message.,LF,look_and_feel,5
+REQ_0089,2,The product shall have a consistent color scheme and fonts.,LF,look_and_feel,5
+REQ_0092,6,The product92s Look and Feel shall be able to incorporate aspects of the customer92s organization such as logo branding and identity,LF,look_and_feel,5
+REQ_0115,36,All source code and development related documents shall be controlled under a version control system.,MN,maintainability,5
+REQ_0129,6,The product must be designed using Design Patterns and coding best practices. 90% of maintenance software developers are able to integrate new functionality into the product with 2 working days.,MN,maintainability,5
+REQ_0135,12,The product shall operate with every platform.The product shall accommodate any new technology without any change in its architecture.,MN,maintainability,5
+REQ_0139,15,98% of the user workstations shall meet the minimum software requirements prior to implementation: Microsoft Internet Explorer 5.0. Microsoft .NET Framework 1.1. Microsoft Internet Explorer Web Controls,O,operational,5
+REQ_0144,22,All data entry forms for the application should match their Microsoft Excel hardcopy counterparts as closely as possible. Hardcopies of these forms were provided to the design team during the second requirements interview.,O,operational,5
+REQ_0150,8,Movies shall be encoded and streamed via Windows Media Player 9.0.,O,operational,5
+REQ_0175,6,The product must make use of web/application server technology. Open source examples include Apache web server Tomcat and the JBoss application server.,O,operational,5
+REQ_0193,6,The product will function alongside server software on any operating system where the Java runtime can be installed.,O,operational,5
+REQ_0198,43,The system shall be compatible with the Microsoft Windows Operating System.,O,operational,5
+REQ_0200,3,The system shall be used within the specifications defined by the computers used by the Program Administrators/Nursing Staff Members.,O,operational,5
+REQ_0230,3,Staff members shall be able to complete a set of tasks in a timely manner.,PE,performance,5
+REQ_0237,8,System shall let customers register on the website as a 93unlimited movie subscriber94 user in under 10 minutes.,PE,performance,5
+REQ_0238,8,System shall let existing customers log into the website with their email address and password in under 5 seconds.,PE,performance,5
+REQ_0240,2,The CMA report shall be returned no later 60 seconds after the user has entered the CMA report criteria.,PE,performance,5
+REQ_0255,10,The product shall protect the identity of the players. The product shall provide players no access to information that might reveal the identity of another player.,PE,performance,5
+REQ_0275,1,The system shall refresh the display every 60 seconds.,PE,performance,5
+REQ_0276,49,The system shall support up to 10000 simultaneous users against the central database at any given time and up to 5000 simultaneous users against the local servers at any one time. The performance of the website must be optimal incase of huge loads and hence appropriate load balancing must be done to achieve this. There can be any number of mirror servers readily available in case of huge loads without the user getting any delay.,PE,performance,5
+REQ_0285,24,The application should be portable with iOS and Android.,PO,portability,5
+REQ_0298,2,The product shall be able support 1000 simultaneous users.,SC,scalability,5
+REQ_0301,6,The product shall be able to process 10 000 transactions per hour within two years of its launch. This number will increase to 20 000 by Release 2.,SC,scalability,5
+REQ_0302,12,The product shall be able to process all transactions.The product shall process minimum of 1 million transactions per year.,SC,scalability,5
+REQ_0316,32,A correct combination of username and password is required for a user to login.,SE,security,5
+REQ_0318,27,A display shall not require a user to log in.,SE,security,5
+REQ_0319,48,A secure server will be required to ensure confidentiality of customer’s credit card and other details.,SE,security,5
+REQ_0367,20,Only users who have been authorized for home access to the corporate Intranet may use the COS from non-company locations.,SE,security,5
+REQ_0370,20,Patrons shall log in according to the restricted computer system access policy.,SE,security,5
+REQ_0390,46,The customer’s web browser shall never display a customer’s credit card number after retrieving from the database. It shall always be shown with just the last 4 digits of the credit card number.,SE,security,5
+REQ_0398,6,The product shall ensure that the database92s data corresponds to the data entered by the user. Each conference room reservation in the system will contain the same information as was entered by the user.,SE,security,5
+REQ_0399,5,The product shall free of computer viruses.,SE,security,5
+REQ_0408,8,The streaming server will have anti-virus software to prevent infection of malicious viruses.,SE,security,5
+REQ_0426,35,The system will develop a security system that will reduce to the minimum the possibility of corruption from systems and/or humans.,SE,security,5
+REQ_0427,47,The system will use a single password per user to login to the E-Store System.,SE,security,5
+REQ_0436,29,Unauthorised users can only read data without modifying anything.,SE,security,5
+REQ_0446,23,95% of users will not need to read the user manual to be able to use the application.,US,usability,5
+REQ_0459,48,It should not take more than 90 seconds for a registered user to place an order.,US,usability,5
+REQ_0462,14,The application shall ask the user to confirm dropping a player or trading a player before performing the action.,US,usability,5
+REQ_0463,49,The entire website must be user-friendly and easily navigable. The website must be provided with a site map for quick access to a particular link according to the requirement specification. The user must be able to find what he/she wants from the site without any difficulty. The website must adhere to branding schemes and the layout of the web pages must be uniform throughout,US,usability,5
+REQ_0469,6,The product shall allow for intuitive searching of available conference rooms.,US,usability,5
+REQ_0471,6,The product shall be able to display calendar dates and times according to the user92s locale. 90% of survey respondents from each target market country will find that the date and time formatting of the product is correct.,US,usability,5
+REQ_0480,10,The product shall be intuitive and self-explanatory. Nine out ten users shall be able to successfully complete a game with no training.,US,usability,5
+REQ_0482,6,The product shall conform to the Americans with Disabilities Act.,US,usability,5
+REQ_0495,19,The system must be intuitive and simple in the way it displays all relevant data and relationships.,US,usability,5

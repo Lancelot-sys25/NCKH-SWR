@@ -1,0 +1,20 @@
+{
+  "source": "data\\raw\\data\\se-requirements-classification\\0-datasets\\tera-PROMISE NFR\\nfr.arff",
+  "all_rows": 625,
+  "nfr_rows": 370,
+  "classes": [
+    "availability",
+    "fault_tolerance",
+    "legal",
+    "look_and_feel",
+    "maintainability",
+    "operational",
+    "performance",
+    "portability",
+    "scalability",
+    "security",
+    "usability"
+  ],
+  "test_size": 0.3,
+  "seed": 42
+}

@@ -1,0 +1,54 @@
+sample_id,project_id,text,label_code,label_name,fold
+REQ_0005,2,Out of 1000 accesses to the system the system is available 999 times.,A,availability,3
+REQ_0006,21,Programmers and application developers will have access to source code to address bugs or system enhancements as deemed necessary. Network Administrator and DBA support is also required to maintain a 24x7 system uptime.,A,availability,3
+REQ_0026,46,The system shall provide a contractual agreement with an internet service provider who can provide 99.999% availability through their network facilities onto the internet.,A,availability,3
+REQ_0038,12,The product shall be robust.The product shall have fault avoidance based on standards adoption.,FT,fault_tolerance,3
+REQ_0041,2,The product shall retain user preferences in the event of a failure.,FT,fault_tolerance,3
+REQ_0054,4,The Disputes application must conform to the legal requirements as specified by Regulation E and Regulation Z that govern credit card disputes processing.,L,legal,3
+REQ_0058,7,The System shall meet all applicable accounting standards. The final version of the System must successfully pass independent audit performed by a certified auditor.,L,legal,3
+REQ_0069,32,It should give a drill-down view of all data in the medical record after logging in.,LF,look_and_feel,3
+REQ_0074,25,The campus map shall provide visual clues regarding what areas have prepared audio and therefore may be selected.,LF,look_and_feel,3
+REQ_0087,10,The product shall display the grids within a circle as a view from a periscope.,LF,look_and_feel,3
+REQ_0095,13,The system shall be displayable on any work computer a CCR user may have. The system interface shall be formatted to display at 800 by 600 pixel resolution.,LF,look_and_feel,3
+REQ_0111,10,When a shot is marked as a hit the product shall simulate the sound of a shot hitting its target.,LF,look_and_feel,3
+REQ_0120,31,Detailed documentation of the code and SRS will enable easy maintenance of the Flea Market.,MN,maintainability,3
+REQ_0136,48,The system should be easy enough to maintain that someone else could do it with a manual and a few hours training.,MN,maintainability,3
+REQ_0143,8,All aspects of the website shall be accessed by a web browser over the Internet.,O,operational,3
+REQ_0147,35,For the system to successfully operate the registration system should be integrated with other IT services and the portal.,O,operational,3
+REQ_0156,4,The Disputes application shall interface with the Cardmember Posting and Billing System. This will allow the Disputes application to request adjustments to cardmember and merchant92s accounts. All adjustment requests must be sent to the Cardmember Posting and Billing System.,O,operational,3
+REQ_0161,7,The System shall be able to automatically backup business data and restore them on demand.,O,operational,3
+REQ_0164,13,The WCS system shall be run in a Windows environment. The WCS shall be accessed by users through the Internet on an IBM computer running a Windows 2000 or above operating system.,O,operational,3
+REQ_0180,6,The product shall be able to be installed in any operating environment within 2 days.,O,operational,3
+REQ_0188,12,The product shall interface CSR and Datastream.The product shall exchange messages between CSR and EAM on a real time basis without any direct interfaces between two systems.,O,operational,3
+REQ_0199,16,The system shall be evoked by typing “pine” into a command or shell prompt.,O,operational,3
+REQ_0217,8,Any interface between a user and the automated system shall have a maximum response time of 5 seconds unless noted by an exception below.,PE,performance,3
+REQ_0222,8,Izogn Administrator must be able to add new products to the website within 2 minutes.,PE,performance,3
+REQ_0239,8,System shall let the administrator add/remove categories on the website in under 5 minutes.,PE,performance,3
+REQ_0260,2,The product shall synchronize contacts and appointments in an acceptable time.,PE,performance,3
+REQ_0268,5,The search for recycled parts shall take no longer than 15 seconds. The search results shall be returned in under 15 seconds.,PE,performance,3
+REQ_0280,8,When streaming a movie the buffering time should take no longer than 10 seconds (plus any latency on the user92s connection.),PE,performance,3
+REQ_0283,36,Since the software must run on several popular hardware platforms and the goal is to achieve a reasonable level of platform independence.,PO,portability,3
+REQ_0292,28,The system will fully function in major browsers.,PO,portability,3
+REQ_0299,5,The product shall be able to handle 10 000 concurrent users within 2 years of the initial launch.,SC,scalability,3
+REQ_0307,8,The server will support a maximum of 1 000 simultaneous users.,SC,scalability,3
+REQ_0347,32,Full data backups must be created daily.,SE,security,3
+REQ_0351,38,Normal users can just read information but they cannot edit or modify anything except their personal and some other information.,SE,security,3
+REQ_0362,5,Only collision estimators shall search for recycled parts. Users without the collision estimator role shall not have access to the search for recycled parts.,SE,security,3
+REQ_0369,5,Only valid data shall be entered into the system. No invalid data shall be entered into the system.,SE,security,3
+REQ_0372,3,Program Administrators/Nursing Staff Members are the only people who shall have access to clinical site details.,SE,security,3
+REQ_0392,40,The data transaction between client and server must be encrypted using SSL technology.,SE,security,3
+REQ_0396,11,The product shall ensure that only supervisors can enter a caller92s schedule.The product must ensure that supervisors are allowed to access advertise empty time slots.,SE,security,3
+REQ_0410,46,The system shall automatically log out all customers after a period of inactivity.,SE,security,3
+REQ_0418,3,The system shall protect private information in accordance with the organization92s information policy.,SE,security,3
+REQ_0424,34,The system should not leave any cookies on the customer’s computer containing the user’s password.,SE,security,3
+REQ_0431,49,The website must provide highest degree of security to the registered users. All the transactions that are made must be secured. The sensitive information passed to and from the website must be secured. Identity theft and other security related issues must be solved. Unauthorized transmission of sensitive information of the user to third party websites for reference must be avoided. On the basis of user agreement the information must be processed. All the information about the registered user must be securely stored in the central database.,SE,security,3
+REQ_0439,31,User passwords will be stored in the database in an encrypted format.,SE,security,3
+REQ_0444,3,2 out of 3 Program Administrators/Nursing Staff Members shall successfully be able to use the system to manage the scheduling of classes and clinicals.,US,usability,3
+REQ_0452,8,An anonymous survey will show that 70% of customers are comfortable purchasing streaming movies after 2 weeks using the website.,US,usability,3
+REQ_0453,8,An anonymous survey will show that 95% of customers are comfortable using and purchasing pre-paid cards after a month of using the system.,US,usability,3
+REQ_0467,3,The number of mistakes noted by the students shall be decreased by 50% in the first year.,US,usability,3
+REQ_0481,6,The product shall be translated into foreign languages other than the target market countries92 languages in future releases. For each emerging target market it shall take no more than 5 days to configure the product for that market92s language.,US,usability,3
+REQ_0498,25,The system shall allow the user to scroll the campus map from the campus map tab.,US,usability,3
+REQ_0503,3,The system shall be intuitive to the Program Administrators/Nursing Staff Members.,US,usability,3
+REQ_0517,15,The users should be able to easily use the system to successfully complete their budgets within the stipulated time for completion. With a week of training prior to product implementation 98% of the users shall complete their budgets within the stipulated time.,US,usability,3
+REQ_0524,8,Users should be able to access their streaming movies in under 2 clicks after logging into the website.,US,usability,3

@@ -1,0 +1,53 @@
+sample_id,project_id,text,label_code,label_name,fold
+REQ_0007,48,The MTBF (if any) should not be less than 2 months.,A,availability,10
+REQ_0024,11,The system shall have high availability every day of the year.The system must be available for use between 12:00AM and 6:00PM all days of the year.,A,availability,10
+REQ_0029,8,The website shall achieve 99.5% up time.,A,availability,10
+REQ_0032,2,100% of saved user preferences shall be restored when system comes back online.,FT,fault_tolerance,10
+REQ_0056,4,The Disputes application must maintain a detailed history of every action that a user takes on a dispute case. This ensures a complete audit trail if questions arise later on with regard to a particular dispute case.,L,legal,10
+REQ_0059,19,The calculations performed by the system must comply according to the norms set by the user and should not vary unless explicitly changed by the user.,L,legal,10
+REQ_0070,4,The Disputes application shall comply with the corporate standards for user interface creation for internally and externally used applications.,LF,look_and_feel,10
+REQ_0073,25,The campus map shall have a pause/resume button. The pause and resume button will allow the user to scroll and select other buildings without being interrupted by the automatic search and announce feature.,LF,look_and_feel,10
+REQ_0093,13,The system interface will use CCR nomenclature. The system must use the same nomenclature used in the existing WCS system and reports,LF,look_and_feel,10
+REQ_0098,25,The system shall show a tabbed display (or equivalent functionality) with the campus map on one tab and info on the most recently announced building on the other.,LF,look_and_feel,10
+REQ_0113,10,When the offensive player takes a shot the product shall simulate the sound of a ship at sea.,LF,look_and_feel,10
+REQ_0123,15,New branches/complexes/districts/regions and revenue/expense accounts added to the BDW must be reflected in the RFS system. 100% of the entities (mentioned above) available as of October month-end will be loaded into the RFS system prior to the budget start process.,MN,maintainability,10
+REQ_0127,24,The application should be easy to extend. The code should be written in a way that it favors implementation of new functions.,MN,maintainability,10
+REQ_0153,13,The Brio portion of the WCS system must be able to export files in spreadsheet form (Microsoft Excel and Lotus 1-2-3 formats). Brio will provide buttons in the user interface that produce/export reports in .xls or .123 file formats.,O,operational,10
+REQ_0166,37,The available server must be reliable and the network connectivity in the supermarket should be proper for smooth flow of all operations and data.,O,operational,10
+REQ_0167,9,The lead washing process will operate within the established physical web service structure.,O,operational,10
+REQ_0171,6,The product must be able to interface with any HTML browser. The product shall transmit data between the user and the product without problems. The product shall display HTML properly in 80% of all HTML browsers tested (minimum is to test 8 browsers).,O,operational,10
+REQ_0173,6,The product must be able to interface with various email servers. The product shall be able to send email.,O,operational,10
+REQ_0174,6,The product must be developed with the J2SE/J2EE programming language libraries,O,operational,10
+REQ_0181,8,The product shall be able to be installed in the specified environment within 1 working day.,O,operational,10
+REQ_0196,34,The system provides storage of all databases on redundant computers with automatic switchover.,O,operational,10
+REQ_0225,11,On a 112k connection or faster the system response time for all operations must be no more than 3 seconds 90% of the time.,PE,performance,10
+REQ_0232,8,System shall let administrator add/remove movies on the website in under 5 minutes. Entered movie information will be stored in the database and will now be available on the website.,PE,performance,10
+REQ_0242,7,The System shall allow for a minimum of 6 users to work at the same time.,PE,performance,10
+REQ_0243,14,The application shall be able to complete every user transaction within one fourth of a second of receiving the request over the network.,PE,performance,10
+REQ_0250,10,The product shall able to handle a large number of games simultaneously.,PE,performance,10
+REQ_0251,2,The product shall generate a CMA report in an acceptable time.,PE,performance,10
+REQ_0273,11,The system shall be responsive. At the DePaul TeleServices Center when a supervisor uses the system to view a callers schedule the system response time must be no more than 2 seconds 90% of the time and no more than 5 seconds the rest of the time.,PE,performance,10
+REQ_0286,35,The product is Web based therefore it will be used in any environment that allows Web access.,PO,portability,10
+REQ_0308,8,The streaming server will support 50 simultaneous streaming connections.,SC,scalability,10
+REQ_0312,3,The system shall cater to 10 simultaneous users from 9am to 5pm.,SC,scalability,10
+REQ_0325,27,A waiter that attempts to log into a second tablet while already logged into another tablet shall be rejected and notified through both tablets.,SE,security,10
+REQ_0335,4,All updates to data files or database must be initiated from the Disputes System.,SE,security,10
+REQ_0346,3,Fit Criterion: Dr Susan Poslusny and Karen Sysol are the only people who shall have access to the final class section scheduling for the system that interfaces with CampusConnect.,SE,security,10
+REQ_0358,15,Only authorized user shall access the RFS system. ONLY users that exist in the UAS system with the RFS system assigned to their role(s) shall access the RFS system and use it.,SE,security,10
+REQ_0375,21,System security and access levels are provided in the online system. There are varying levels of system access and functional authority. Each student’s access is limited to his/her own registration records. Only authorized system administrator(s) has access to all student registration records.,SE,security,10
+REQ_0387,7,The System shall maintain consistent security. Any changes in user passwords and/or permissions should take affect in all parts of the System.,SE,security,10
+REQ_0395,11,The product shall ensure that only supervisors can advertise empty time slots.The product must ensure that supervisors are allowed to access advertise empty time slots.,SE,security,10
+REQ_0407,36,The software system needs a robust security mechanism in place so that unauthorized users are not allowed access to parts of the system.,SE,security,10
+REQ_0409,34,The system must automatically log out all customers after a period of inactivity.,SE,security,10
+REQ_0413,46,The system shall not leave any cookies on the customer’s computer containing any of the user’s confidential information.,SE,security,10
+REQ_0420,47,The system shall use secure socket layer (SSL) technology to ensure all payments made online and user logins are secure.,SE,security,10
+REQ_0423,45,The system shall utilize HTTPS communication to ensure data confidentiality.,SE,security,10
+REQ_0435,40,To prevent attacks the system should generate random word and ask the user to enter it correctly for multiple tryings.,SE,security,10
+REQ_0460,13,Reports must be easy to generate. Reports must be generated within one button click and exported within one button click (after selecting the report),US,usability,10
+REQ_0470,6,The product shall allow the user to select a chosen language from one of the target market countries.,US,usability,10
+REQ_0488,12,The product shall provide Portals.The product shall help System Administrators to analyze the transactions with ad-hoc reporting and KPIs (Key Performance Indicators),US,usability,10
+REQ_0493,8,The product should be able to be used by 90% of novice users on the Internet.,US,usability,10
+REQ_0501,3,The system shall be easy to use by the Program Administrators/Nursing Staff Members.,US,usability,10
+REQ_0505,46,The system shall confirm all transactions with the customer’s web browser.,US,usability,10
+REQ_0513,3,The system shall use symbols and words that are naturally understandable by the user community.,US,usability,10
+REQ_0521,14,Users shall be able to reach the 91add92 91drop92 and 91trade player92 pages with one click from the team owner92s page.,US,usability,10

@@ -1,0 +1,53 @@
+sample_id,project_id,text,label_code,label_name,fold
+REQ_0004,9,Defect reports will be available to technical units on a 24x7 basis.,A,availability,6
+REQ_0012,24,The application should be connected to the Internet.,A,availability,6
+REQ_0023,3,The system shall be available for use between the hours of 8am and 6pm.,A,availability,6
+REQ_0036,2,The product shall allow the user to view previously downloaded search results CMA reports and appointments.,FT,fault_tolerance,6
+REQ_0049,8,The website shall continue to operate if the streaming server goes down.,FT,fault_tolerance,6
+REQ_0060,19,The client should agree to EULA before using our software.,L,legal,6
+REQ_0082,15,The product must comply with the intranet page standards and requirements of ENET Securities. 95% of the product look & feel will be approved by the Architecture group prior to implementation. The remaining 5% will be corrected and approved within one month of product release.,LF,look_and_feel,6
+REQ_0084,5,The product shall comply with corporate User Interface Guidelines,LF,look_and_feel,6
+REQ_0091,10,The product shall simulate the look of ships at sea.,LF,look_and_feel,6
+REQ_0101,40,The system should be simple to use,LF,look_and_feel,6
+REQ_0103,2,The user interface shall have standard menus buttons for navigation,LF,look_and_feel,6
+REQ_0114,13,All changes updates and additions to the WCS system shall be updated in the WCS Developer and WCS User Guides. Every change must be reflected in WCS system documentation,MN,maintainability,6
+REQ_0117,14,Application updates shall occur between 3AM and 6 AM CST on Wednesday morning during the middle of the NFL season.,MN,maintainability,6
+REQ_0125,24,Test environments should be built for the application to allow testing of the applications different functions.,MN,maintainability,6
+REQ_0141,14,A primary database will be used to store cached data for active users.,O,operational,6
+REQ_0149,32,It must only update the parts that have changed when connecting to the server.,O,operational,6
+REQ_0170,6,The product is expected to integrate with multiple database management systems. The product will operate with Oracle SQL Server DB2 MySQL HSQL and MS Access.,O,operational,6
+REQ_0177,5,The product must support Mozilla Firefox 1.0 and above.,O,operational,6
+REQ_0195,8,The same hardware supporting the current website will be used to support the new system.,O,operational,6
+REQ_0197,3,The system shall able to operate within a business office environment typical of the Nursing Department at DePaul University.,O,operational,6
+REQ_0206,27,The system shall utilise periodic 30-second keep-alive messages between tablets and the server to monitor tablet operational status.,O,operational,6
+REQ_0233,8,System shall let administrator de-activate a customer account in under 1 minute. Customer will no longer be able to access the website.,PE,performance,6
+REQ_0247,5,The preferred repair facility ratings shall be saved within 5 seconds. The save shall occur within 5 seconds.,PE,performance,6
+REQ_0248,9,The process must fit within the processing time conditions set forth by the Auto Rep Assignment process in which a lead is assigned within 3 minutes of the total life cycle.,PE,performance,6
+REQ_0252,12,The product shall poll the system for messages every second.The product shall poll the system for new messages at a maximum of every 1 second.,PE,performance,6
+REQ_0259,1,The product shall respond fast to keep up-to-date data in the display.,PE,performance,6
+REQ_0264,6,The response shall be fast enough to avoid interrupting the user92s flow of thought. 90% of tasks shall complete within 5 seconds. 98% of tasks shall complete within 8 seconds.,PE,performance,6
+REQ_0267,10,The response time shall be fast enough to maintain the flow of the game. The response time shall be no more than 2 seconds for 95% of responses and no more than 4% for the remaining responses.,PE,performance,6
+REQ_0291,48,The system should be portable to various operating environments.,PO,portability,6
+REQ_0296,5,The average number of recycled parts records per day shall be 50 000.,SC,scalability,6
+REQ_0310,3,The system shall be capable of processing 100% of nursing students and their classes for the next 10 years.,SC,scalability,6
+REQ_0321,27,A tablet shall require a user to log in using a username and password.,SE,security,6
+REQ_0338,8,Data integrity scripts will be run on a weekly basis to verify the integrity of the database.,SE,security,6
+REQ_0339,3,Dr Susan Poslusny and Dr Julie Donalek are the only people who shall have access to students92 personal information.,SE,security,6
+REQ_0342,36,Each user shall either be trusted or not trusted.,SE,security,6
+REQ_0349,30,Information transmission should be securely transmitted to server without any changes in information.,SE,security,6
+REQ_0350,32,Logout must be automatic after 1 hour of inactivity.,SE,security,6
+REQ_0365,2,Only registered realtors shall be able to access the system.,SE,security,6
+REQ_0383,4,The Disputes application shall ensure that only users with the appropriate access level are allowed to initiate dispute requests.,SE,security,6
+REQ_0394,6,The product shall ensure that only company employees or external users with company-approved user IDs may have product access. 100% of all logons shall be by either company employees or external users with company-approved user IDs.,SE,security,6
+REQ_0397,11,The product shall ensure that only supervisors can view schedule of all callers.The product must ensure that supervisors are allowed to access advertise empty time slots.,SE,security,6
+REQ_0414,46,The system shall not leave any cookies on the customer’s computer containing the user’s password.,SE,security,6
+REQ_0415,8,The system shall notify customers of changes to its information policy.,SE,security,6
+REQ_0417,5,The system shall prevent malicious attacks including denial of service.,SE,security,6
+REQ_0448,14,A new user shall be able to navigate through the league and team pages within 30 seconds of reaching the start-up page.,US,usability,6
+REQ_0450,13,All CCR users shall receive training before the WCS system is deployed. One training session will be held for 100% of CCR users before system deployment (based on a CCR user being available),US,usability,6
+REQ_0474,8,The product shall be easy for customers with novice skills on the Internet to purchase and watch streaming movies. Customers should be able to purchase and watch a pre-determined movie in under 3 minutes.,US,usability,6
+REQ_0486,12,The product shall provide Error Tracking Services.The product shall help the System Administrators and DBAs to resolve transaction errors 99% of the time.,US,usability,6
+REQ_0487,12,The product shall provide Monitoring Services.The product shall be easy for System Administrators and DBAs to use after two weeks of usage.,US,usability,6
+REQ_0489,8,The product shall retain the customer92s buying preferences and information.,US,usability,6
+REQ_0496,19,The system must be quickly accessible by both managers and chefs.,US,usability,6
+REQ_0510,46,The system shall provide handicap access.,US,usability,6

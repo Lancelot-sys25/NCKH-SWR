@@ -1,0 +1,54 @@
+sample_id,project_id,text,label_code,label_name,fold
+REQ_0010,14,The application shall have a downtime of at most 10 minutes per year.,A,availability,1
+REQ_0017,1,The product shall be available during normal business hours. As long as the user has access to the client PC the system will be available 99% of the time during the first six months of operation.,A,availability,1
+REQ_0018,2,The product shall be available for use 24 hours per day 365 days per year,A,availability,1
+REQ_0020,11,The system must be available for use between 7:00AM and 11:59PM all days of the year.,A,availability,1
+REQ_0035,6,The product and/or dependent databases/filesystems shall remain operational as a result of the input of malicious data. The product and/or dependent databases/filesystems shall not crash 100% of the time that malicious data is input into the product.,FT,fault_tolerance,1
+REQ_0052,4,All business rules specified in the Disputes System shall be in compliance with the Merchant Operating Regulations.,L,legal,1
+REQ_0061,5,The product must comply with Sarbanes-Oxley.,L,legal,1
+REQ_0066,30,Be intuitive even to first time users,LF,look_and_feel,1
+REQ_0071,5,The appearance of the product shall appear professional,LF,look_and_feel,1
+REQ_0080,2,The look and feel of the system shall conform to the user interface standards of the smart device.,LF,look_and_feel,1
+REQ_0106,8,The website shall not be offensive to religious or ethnic groups.,LF,look_and_feel,1
+REQ_0107,8,The website should appeal to all Africans not only Nigerians.,LF,look_and_feel,1
+REQ_0128,6,The customer shall be able to easily integrate new building maps with the product throughout the product92s lifecycle. Integration of new maps with the product shall be possible with little to no support from product support staff.,MN,maintainability,1
+REQ_0137,9,Washing parameters will be updated during scheduled maintenance hours.,MN,maintainability,1
+REQ_0169,18,The meeting scheduler shall be accessed from the Web.,O,operational,1
+REQ_0183,6,The product shall be available for distribution via the Internet as a binary or ZIP file.,O,operational,1
+REQ_0186,5,The product shall be supported using the corporate support center.,O,operational,1
+REQ_0190,5,The product shall interface with the ChoiceParts system once per day at approximately 1:00 AM.,O,operational,1
+REQ_0202,3,The system shall interface with the faculty central server.,O,operational,1
+REQ_0211,3,We must be able to interface with any HTML browser.,O,operational,1
+REQ_0212,8,We must be able to interface with the following browsers: IE 5.X 6.0 Netscape 6.x 7.x 8.x and Firefox 1.0.,O,operational,1
+REQ_0213,8,Website must be fully operational with MSN TV2.,O,operational,1
+REQ_0245,4,The maximum wait time for a user navigating from one screen to another within the Disputes application shall be no more than 5 seconds.,PE,performance,1
+REQ_0254,2,The product shall produce search results in an acceptable time,PE,performance,1
+REQ_0265,3,The response time of general student management tasks shall take no longer than 5 seconds and the response time of schedule generation shall take no longer than 30 seconds.,PE,performance,1
+REQ_0271,40,The system is expected to have reasonable short time response. The voter should be able to login and should be able to get response for his requests in 2-3 seconds.,PE,performance,1
+REQ_0274,20,The system shall display confirmation messages to users within 4 seconds after the user submits information to the system.,PE,performance,1
+REQ_0279,8,When purchasing a streaming movie or pre-paid card via credit card the processing time should have a maximum response time of 15 seconds.,PE,performance,1
+REQ_0281,8,While streaming a movie buffering should only occur if there is latency in the user92s connection.,PE,performance,1
+REQ_0288,45,The system shall be compatible with IIS6.0 and above or Apache 2.0 and above.,PO,portability,1
+REQ_0303,2,The product shall be able to support multiple remote users,SC,scalability,1
+REQ_0309,8,The streaming server will support a maximum of 700 movies; new servers can be added to support more movies.,SC,scalability,1
+REQ_0320,27,A surface computer shall not require a user to log in.,SE,security,1
+REQ_0333,40,All the passwords that are generated or accepted must be stored in database in an encrypted form.,SE,security,1
+REQ_0334,31,All transactions at the Flea Market require a valid user ID and password.,SE,security,1
+REQ_0337,38,Customers must have a valid login id to enter into the site.,SE,security,1
+REQ_0355,8,Only administrators can activate a pre-paid card.,SE,security,1
+REQ_0359,3,Only authorized users shall have access to clinical site information.,SE,security,1
+REQ_0363,6,Only managers are able to perform search queries for reservations by user. 100% of all search queries for reservations by user shall be from logons of only management logons.,SE,security,1
+REQ_0377,38,System will have different types of users and every user has access constraints.,SE,security,1
+REQ_0381,4,The Disputes System shall generate a User Report that details any new users that have been added and any changes to an existing user92s access level. The report will be reviewed for auditing purposes.,SE,security,1
+REQ_0403,12,The product shall information Security. The product shall enable privacy by encryption WS-Security and Integrity Checking.,SE,security,1
+REQ_0411,3,The system shall be built such that it is as secure as possible from malicious interference.,SE,security,1
+REQ_0425,34,The system use SSL (secured socket layer) in all transactions that include any confidential customer information.,SE,security,1
+REQ_0441,4,100% of cardmember services representatives shall be able to successfully create a dispute case on the first encounter after completing the training course.,US,usability,1
+REQ_0443,4,100% of the cardmember and merchant services representatives shall use the Disputes application regularly after a 2-day training course.,US,usability,1
+REQ_0447,6,A new user must be able to be added to the system within 10 minutes. 90% of new users are able to log into the system within 10 minutes.,US,usability,1
+REQ_0461,13,The WCS system shall use appropriate nomenclature and terminology as defined by the Corporate Community Grants organization. All interfaces and reports will undergo usability tests by CCR users.,US,usability,1
+REQ_0464,13,The interface shall be easy to use. 90% of users should be able to successfully use the system to generate a report on their first use. The interface should adhere to IBM usability standards.,US,usability,1
+REQ_0500,11,The system shall be easy to use by callers and supervisors. Callers and supervisors must be able to accomplish any system task within 2 minutes.,US,usability,1
+REQ_0504,2,The system shall be used by realtors with no training.,US,usability,1
+REQ_0514,35,The system should need to be entirely self-supporting since the users would be using it only to register courses.,US,usability,1
+REQ_0516,5,The user shall easily locate instructions while using the product. User help can be found within 90% of the system.,US,usability,1

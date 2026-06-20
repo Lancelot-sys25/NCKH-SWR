@@ -1,0 +1,54 @@
+sample_id,project_id,text,label_code,label_name,fold
+REQ_0009,13,The WCS system shall be available at all times as long as IBM92s internal intranet W3 is accessible. The WCS system will be available 95% of the time IBM92s internal intranet W3 is available.,A,availability,4
+REQ_0015,10,The product shall be available 24 hours per day seven days per week.,A,availability,4
+REQ_0027,8,The system will provide a 24 hour 800 toll free number for support to its customers.,A,availability,4
+REQ_0034,36,The Operational Interface shall have a Mean Time Between Failures of no less than 7 days.,FT,fault_tolerance,4
+REQ_0042,34,The reliability of the overall program depends on the reliability of the separate components. The main pillar of reliability of the system is the backup of the database which is continuously maintained and updated to reflect the most recent changes.,FT,fault_tolerance,4
+REQ_0051,4,All business rules specified in the Disputes System shall be in compliance to the guidelines of Regulation E and Regulation Z.,L,legal,4
+REQ_0055,4,The Disputes application must conform to the legal requirements as specified by the Merchant Operating Regulations.,L,legal,4
+REQ_0079,35,The logo and the current basic design of registration system should be displayed. The system should be attractive according to the clients. The design and the color should make users feel comfortable when using the system instead of flashing useless colors on the screen. The design should also reflect the seriousness of the environment.,LF,look_and_feel,4
+REQ_0096,2,The system shall have a professional appearance,LF,look_and_feel,4
+REQ_0102,27,The system should use the company colors and logos.,LF,look_and_feel,4
+REQ_0110,10,When a ship is sunk the product shall simulate the sound of a sinking ship.,LF,look_and_feel,4
+REQ_0130,6,The product must be highly configurable for use with various database management systems for the end users. 80% of end users are able to integrate new database management systems with the product without changing the product92s software code.,MN,maintainability,4
+REQ_0133,12,The product shall be updated on a regular basis.The product will have a new major feature introduced every six months and quarterly maintenance releases every six months.,MN,maintainability,4
+REQ_0134,12,The product shall continue to operate during upgrade change or new resource addition.The product shall be able to continue to operate with no interruption in service due to new resource additions.,MN,maintainability,4
+REQ_0145,31,Flea Market system will interface with the web server and RDBMS software using APIs provided by the implementation language,O,operational,4
+REQ_0155,4,The Disputes application shall interface with the Cardmember Information Database. The Cardmember Information Database provides detailed information with regard to a cardmember. All cardmember detail information must be obtained from the Cardmember Information Database.,O,operational,4
+REQ_0176,5,The product must support Internet Explorer 5.5 and above.,O,operational,4
+REQ_0187,6,The product shall be used in office environments.,O,operational,4
+REQ_0191,5,The product shall run on the existing hardware for all environments.,O,operational,4
+REQ_0194,6,The product will require collaboration with a database management system (DBMS). The DBMS may be located on the same machine as the product or on a separate machine residing on the same computer network.,O,operational,4
+REQ_0201,3,The system shall interface with CampusConnect92s central server,O,operational,4
+REQ_0209,9,The washing process must use a non binding neutral data format such as xml when receiving and processing lead data.,O,operational,4
+REQ_0218,48,Any page of the application should not take more than 6 seconds to load on a DSL broadband connection.,PE,performance,4
+REQ_0226,11,On a 56k connection the system response time for all operations must be no more than 6 seconds 90% of the time.,PE,performance,4
+REQ_0235,8,System shall let customers cancel their account process shall take no longer than 2 minutes. Database will mark the account as inactive and user will not be able to log into the website.,PE,performance,4
+REQ_0253,12,The product shall process messages within 2 seconds.The product shall have a maximum message processing time of 2 seconds,PE,performance,4
+REQ_0262,46,The product shall take initial load time depending on internet connection strength which also depends on the media from which the product is run.,PE,performance,4
+REQ_0266,10,The response time shall be fast enough to maintain the flow of the game. The response time shall be no more than 2 seconds for 95% of responses and no more than 4% for the remaining responses.,PE,performance,4
+REQ_0290,45,The system shall run on Windows Server 2003.,PO,portability,4
+REQ_0295,13,The WCS system shall have the ability to include data for regions outside the United States and be accessed by users outside of the United States if approved by CCR management.,SC,scalability,4
+REQ_0297,6,The language of the product shall accommodate all of the target market countries. 90% of survey respondents from each target market country will find that the language of the product is acceptable.,SC,scalability,4
+REQ_0305,6,The product shall be capable of handling up to 1 000 concurrent requests. This number will increase to 2 000 by Release 2. The concurrency capacity must be able to handle peak scheduling times such as early morning and late afternoon hours.,SC,scalability,4
+REQ_0328,8,All credit card information will be encrypted in the database.,SE,security,4
+REQ_0361,3,Only authorized users shall have access to the portion of the system that interfaces with CampusConnect.,SE,security,4
+REQ_0371,45,Personal information security is defined outside the scope of the SDMS by the database server.,SE,security,4
+REQ_0373,31,Secure data transfer over the Internet could be provided using SSL encryption that will be configured by the host system administrator.,SE,security,4
+REQ_0376,38,System use shall not cause any harm to human users.,SE,security,4
+REQ_0379,29,System will use secured database.,SE,security,4
+REQ_0385,31,The IP addresses where the transaction was made from will be logged.,SE,security,4
+REQ_0402,6,The product shall have the ability to receive automatic software updates as new threats emerge. 100% of customers will be able to receive automatic software updates transmitted to the installed product.,SE,security,4
+REQ_0404,2,The product shall prevent its data from incorrect data being introduced.,SE,security,4
+REQ_0406,10,The product shall provide players no access to information that might reveal the identity of another player,SE,security,4
+REQ_0430,34,The system’s back-end servers shall only be accessible to authenticated administrators.,SE,security,4
+REQ_0438,45,User authentication and privileges are defined outside the scope of the sytem by the Microsoft Active Directroy Server.,SE,security,4
+REQ_0442,4,100% of merchant services representatives shall be able to successfully perform a follow up action on a dispute case on the first encounter after completing the training course.,US,usability,4
+REQ_0472,10,The product shall be available to players who understand English Spanish and French. The product shall allow the user to select the language upon accessing the product.,US,usability,4
+REQ_0473,2,The product shall be easy for a realtor to learn.,US,usability,4
+REQ_0478,2,The product shall be installed by an untrained realtor without recourse to separately-printed instructions.,US,usability,4
+REQ_0479,1,The product shall be intuitive and self-explanatory. 90% of new users shall be able to start the display of Events or Activities within 90 minutes of using the product.,US,usability,4
+REQ_0491,2,The product shall use symbols and words that are naturally understandable by the realtor community.,US,usability,4
+REQ_0502,2,The system shall be intuitive and self explanatory.,US,usability,4
+REQ_0511,46,The system shall provide multi language support.,US,usability,4
+REQ_0525,8,Users should only have to navigate through a maximum of 4 pages to create an account with the website.,US,usability,4

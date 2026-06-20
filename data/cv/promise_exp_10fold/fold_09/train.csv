@@ -1,0 +1,474 @@
+sample_id,project_id,text,label_code,label_name,fold
+REQ_0002,19,All the functions of the system must be available to the user every time the system is turned on.,A,availability,5
+REQ_0003,6,Aside from server failure the software product shall achieve 99.99% up time.,A,availability,8
+REQ_0004,9,Defect reports will be available to technical units on a 24x7 basis.,A,availability,6
+REQ_0005,2,Out of 1000 accesses to the system the system is available 999 times.,A,availability,3
+REQ_0006,21,Programmers and application developers will have access to source code to address bugs or system enhancements as deemed necessary. Network Administrator and DBA support is also required to maintain a 24x7 system uptime.,A,availability,3
+REQ_0007,48,The MTBF (if any) should not be less than 2 months.,A,availability,10
+REQ_0008,15,The RFS system should be available 24/7 especially during the budgeting period. The RFS system shall be available 90% of the time all year and 98% during the budgeting period. 2% of the time the system will become available within 1 hour of the time that the situation is reported.,A,availability,8
+REQ_0009,13,The WCS system shall be available at all times as long as IBM92s internal intranet W3 is accessible. The WCS system will be available 95% of the time IBM92s internal intranet W3 is available.,A,availability,4
+REQ_0010,14,The application shall have a downtime of at most 10 minutes per year.,A,availability,1
+REQ_0011,24,The application should be connected to the GPS device.,A,availability,2
+REQ_0012,24,The application should be connected to the Internet.,A,availability,6
+REQ_0013,5,The product shall achieve a 98% uptime. The product shall not fail more than 2% of the available online time.,A,availability,2
+REQ_0014,5,The product shall adhere to the corporate online availability schedule. The application is brought down only within 98% of the scheduled outages per the availability schedule.,A,availability,5
+REQ_0015,10,The product shall be available 24 hours per day seven days per week.,A,availability,4
+REQ_0016,12,The product shall be available 99% of the time. Rationale: To avoid service interruption during busiest customer service response periods. The product shall be available 99.99% of the time for regular business days.,A,availability,8
+REQ_0017,1,The product shall be available during normal business hours. As long as the user has access to the client PC the system will be available 99% of the time during the first six months of operation.,A,availability,1
+REQ_0018,2,The product shall be available for use 24 hours per day 365 days per year,A,availability,1
+REQ_0020,11,The system must be available for use between 7:00AM and 11:59PM all days of the year.,A,availability,1
+REQ_0021,3,The system shall achieve 95% up time.,A,availability,7
+REQ_0023,3,The system shall be available for use between the hours of 8am and 6pm.,A,availability,6
+REQ_0024,11,The system shall have high availability every day of the year.The system must be available for use between 12:00AM and 6:00PM all days of the year.,A,availability,10
+REQ_0025,46,The system shall provide a contractual agreement with an internet service provider for T3 access with 99.9999% availability.,A,availability,7
+REQ_0026,46,The system shall provide a contractual agreement with an internet service provider who can provide 99.999% availability through their network facilities onto the internet.,A,availability,3
+REQ_0027,8,The system will provide a 24 hour 800 toll free number for support to its customers.,A,availability,4
+REQ_0028,33,The website is available whenever the users want to use it.,A,availability,5
+REQ_0029,8,The website shall achieve 99.5% up time.,A,availability,10
+REQ_0030,8,The website shall be available for use 24 hours per day 365 days per year.,A,availability,7
+REQ_0031,8,Velkat staff will be available for phone support between 7am-7pm M-F to provide technical support to the Izogn administrators.,A,availability,2
+REQ_0032,2,100% of saved user preferences shall be restored when system comes back online.,FT,fault_tolerance,10
+REQ_0033,29,ABS shall handle all expected and unexpected errors in ways that prevent loss in information and long downtime period.,FT,fault_tolerance,2
+REQ_0034,36,The Operational Interface shall have a Mean Time Between Failures of no less than 7 days.,FT,fault_tolerance,4
+REQ_0035,6,The product and/or dependent databases/filesystems shall remain operational as a result of the input of malicious data. The product and/or dependent databases/filesystems shall not crash 100% of the time that malicious data is input into the product.,FT,fault_tolerance,1
+REQ_0036,2,The product shall allow the user to view previously downloaded search results CMA reports and appointments.,FT,fault_tolerance,6
+REQ_0037,12,The product shall be robust with fault tolerance.The product shall have fault tolerance by using recovery technique compensatory transaction and routing around failures.,FT,fault_tolerance,5
+REQ_0038,12,The product shall be robust.The product shall have fault avoidance based on standards adoption.,FT,fault_tolerance,3
+REQ_0039,6,The product shall create an exception log of problems encountered within the product for transmission to our company for analysis and resolution.,FT,fault_tolerance,7
+REQ_0040,2,The product shall operate in offline mode whenever internet connection is unavailable.,FT,fault_tolerance,5
+REQ_0041,2,The product shall retain user preferences in the event of a failure.,FT,fault_tolerance,3
+REQ_0042,34,The reliability of the overall program depends on the reliability of the separate components. The main pillar of reliability of the system is the backup of the database which is continuously maintained and updated to reflect the most recent changes.,FT,fault_tolerance,4
+REQ_0043,38,The system shall accommodate high number of items and users without any fault.,FT,fault_tolerance,7
+REQ_0044,29,The system shall accommodate large data items without fault.,FT,fault_tolerance,2
+REQ_0046,27,The system shall flag tablets that fail to send timely keep-alive messages as non-operational and disassociate the assigned waiter from the tablet.,FT,fault_tolerance,8
+REQ_0047,40,The system should warn ECA users about the malfunction of the system.,FT,fault_tolerance,8
+REQ_0049,8,The website shall continue to operate if the streaming server goes down.,FT,fault_tolerance,6
+REQ_0050,4,All actions that modify an existing dispute case must be recorded in the case history.,L,legal,7
+REQ_0051,4,All business rules specified in the Disputes System shall be in compliance to the guidelines of Regulation E and Regulation Z.,L,legal,4
+REQ_0052,4,All business rules specified in the Disputes System shall be in compliance with the Merchant Operating Regulations.,L,legal,1
+REQ_0053,8,IzognMovies shall meet the licensing requirements set forth by the appropriate organizations in order to stream African movies.,L,legal,2
+REQ_0054,4,The Disputes application must conform to the legal requirements as specified by Regulation E and Regulation Z that govern credit card disputes processing.,L,legal,3
+REQ_0055,4,The Disputes application must conform to the legal requirements as specified by the Merchant Operating Regulations.,L,legal,4
+REQ_0056,4,The Disputes application must maintain a detailed history of every action that a user takes on a dispute case. This ensures a complete audit trail if questions arise later on with regard to a particular dispute case.,L,legal,10
+REQ_0058,7,The System shall meet all applicable accounting standards. The final version of the System must successfully pass independent audit performed by a certified auditor.,L,legal,3
+REQ_0059,19,The calculations performed by the system must comply according to the norms set by the user and should not vary unless explicitly changed by the user.,L,legal,10
+REQ_0060,19,The client should agree to EULA before using our software.,L,legal,6
+REQ_0061,5,The product must comply with Sarbanes-Oxley.,L,legal,1
+REQ_0062,5,The product shall comply with insurance regulations regarding claims processing.,L,legal,8
+REQ_0063,5,The product shall comply with the estimatics laws relating to recycled parts usage.,L,legal,5
+REQ_0064,8,The website will comply with W3C standards.,L,legal,2
+REQ_0066,30,Be intuitive even to first time users,LF,look_and_feel,1
+REQ_0069,32,It should give a drill-down view of all data in the medical record after logging in.,LF,look_and_feel,3
+REQ_0070,4,The Disputes application shall comply with the corporate standards for user interface creation for internally and externally used applications.,LF,look_and_feel,10
+REQ_0071,5,The appearance of the product shall appear professional,LF,look_and_feel,1
+REQ_0072,1,The application shall match the color of the schema set forth by Department of Homeland Security,LF,look_and_feel,8
+REQ_0073,25,The campus map shall have a pause/resume button. The pause and resume button will allow the user to scroll and select other buildings without being interrupted by the automatic search and announce feature.,LF,look_and_feel,10
+REQ_0074,25,The campus map shall provide visual clues regarding what areas have prepared audio and therefore may be selected.,LF,look_and_feel,3
+REQ_0075,13,The interface must summarize the data in a fashion that92s appealing to CCR management. Every report type must have at least one high level summary shown in the results dashboard/interface,LF,look_and_feel,5
+REQ_0076,11,The interface shall be appealing to callers and supervisors. In the interface and usability survey 80% of beta testers must report that the interface is appealing.,LF,look_and_feel,8
+REQ_0077,11,The interface shall have a simple look. In the interface and usability survey 90% of beta testers must report that the interface is adequately simple.,LF,look_and_feel,5
+REQ_0078,15,The intranet pages should display appropriately in all resolutions from 800x600 and higher. The display of all the pages will be correct in 95% of the resolutions prior to implementation. The remaining 5% will be corrected within a week of notification of the incorrect display.,LF,look_and_feel,2
+REQ_0079,35,The logo and the current basic design of registration system should be displayed. The system should be attractive according to the clients. The design and the color should make users feel comfortable when using the system instead of flashing useless colors on the screen. The design should also reflect the seriousness of the environment.,LF,look_and_feel,4
+REQ_0080,2,The look and feel of the system shall conform to the user interface standards of the smart device.,LF,look_and_feel,1
+REQ_0081,14,The message board shall contain the 5 most recently posted messages on the league page. The messages will contain up to the first 150 characters of the message.,LF,look_and_feel,5
+REQ_0082,15,The product must comply with the intranet page standards and requirements of ENET Securities. 95% of the product look & feel will be approved by the Architecture group prior to implementation. The remaining 5% will be corrected and approved within one month of product release.,LF,look_and_feel,6
+REQ_0083,12,The product shall comply with City of Chicago Application Development Guide Framework.Application Development Framework will provide structured Graphical User Interface.,LF,look_and_feel,2
+REQ_0084,5,The product shall comply with corporate User Interface Guidelines,LF,look_and_feel,6
+REQ_0085,5,The product shall comply with corporate color scheme,LF,look_and_feel,7
+REQ_0086,10,The product shall display each type of ship in a grid using an image of the specific type of ship.,LF,look_and_feel,8
+REQ_0087,10,The product shall display the grids within a circle as a view from a periscope.,LF,look_and_feel,3
+REQ_0088,6,The product shall have a conservative and professional appearance.,LF,look_and_feel,7
+REQ_0089,2,The product shall have a consistent color scheme and fonts.,LF,look_and_feel,5
+REQ_0090,12,The product shall provide GUI based Monitoring Services.System Administrators shall monitor message exchanges will predict and determine problems and will also provide internal and external support.,LF,look_and_feel,7
+REQ_0091,10,The product shall simulate the look of ships at sea.,LF,look_and_feel,6
+REQ_0092,6,The product92s Look and Feel shall be able to incorporate aspects of the customer92s organization such as logo branding and identity,LF,look_and_feel,5
+REQ_0093,13,The system interface will use CCR nomenclature. The system must use the same nomenclature used in the existing WCS system and reports,LF,look_and_feel,10
+REQ_0094,27,The system shall be able to display a menu at all times to facilitate manual order taking should the need arise.,LF,look_and_feel,2
+REQ_0095,13,The system shall be displayable on any work computer a CCR user may have. The system interface shall be formatted to display at 800 by 600 pixel resolution.,LF,look_and_feel,3
+REQ_0096,2,The system shall have a professional appearance,LF,look_and_feel,4
+REQ_0097,46,The system shall provide a uniform look and feel between all the web pages.,LF,look_and_feel,7
+REQ_0098,25,The system shall show a tabbed display (or equivalent functionality) with the campus map on one tab and info on the most recently announced building on the other.,LF,look_and_feel,10
+REQ_0099,13,The system shall use IBM and CCR branding standards. The interface must have one IBM logo and one CCR logo.,LF,look_and_feel,2
+REQ_0100,16,The system shall use a text-based interface to display a listing of available mail.,LF,look_and_feel,7
+REQ_0101,40,The system should be simple to use,LF,look_and_feel,6
+REQ_0102,27,The system should use the company colors and logos.,LF,look_and_feel,4
+REQ_0103,2,The user interface shall have standard menus buttons for navigation,LF,look_and_feel,6
+REQ_0105,8,The website shall be attractive to all audiences. The website shall appear to be fun and the colors should be bright and vibrant.,LF,look_and_feel,2
+REQ_0106,8,The website shall not be offensive to religious or ethnic groups.,LF,look_and_feel,1
+REQ_0107,8,The website should appeal to all Africans not only Nigerians.,LF,look_and_feel,1
+REQ_0109,8,The website should have an African feel but should not alienate non-Africans. The website should use animation on pages which are describing the services to grab the users attention and encourage them to sign up.,LF,look_and_feel,8
+REQ_0110,10,When a ship is sunk the product shall simulate the sound of a sinking ship.,LF,look_and_feel,4
+REQ_0111,10,When a shot is marked as a hit the product shall simulate the sound of a shot hitting its target.,LF,look_and_feel,3
+REQ_0112,10,When a shot is marked as a miss the product shall simulate the sound of a shot missing its target.,LF,look_and_feel,8
+REQ_0113,10,When the offensive player takes a shot the product shall simulate the sound of a ship at sea.,LF,look_and_feel,10
+REQ_0114,13,All changes updates and additions to the WCS system shall be updated in the WCS Developer and WCS User Guides. Every change must be reflected in WCS system documentation,MN,maintainability,6
+REQ_0115,36,All source code and development related documents shall be controlled under a version control system.,MN,maintainability,5
+REQ_0117,14,Application updates shall occur between 3AM and 6 AM CST on Wednesday morning during the middle of the NFL season.,MN,maintainability,6
+REQ_0118,23,Changes made to the Manage My ID website can be adopted without altering the iOS application.,MN,maintainability,7
+REQ_0119,15,Changes to revenue and expense formulae must be applied to the RFS system every year prior to the budgeting process start. Revenue and expense formulae will be updated within one week of their receipt after which 2 weeks will be allotted to testing of the budget calculations to be conducted jointly by the project development team and PCG Finance.,MN,maintainability,7
+REQ_0120,31,Detailed documentation of the code and SRS will enable easy maintenance of the Flea Market.,MN,maintainability,3
+REQ_0121,6,Maintenance releases will be offered to customers once a year. The releases shall take no longer than 5 minutes for 80% of the customer base to install.,MN,maintainability,2
+REQ_0122,14,New System version releases shall be released at the beginning of each NFL season.,MN,maintainability,2
+REQ_0123,15,New branches/complexes/districts/regions and revenue/expense accounts added to the BDW must be reflected in the RFS system. 100% of the entities (mentioned above) available as of October month-end will be loaded into the RFS system prior to the budget start process.,MN,maintainability,10
+REQ_0124,8,Promotional updates to the website should take a day to update.,MN,maintainability,7
+REQ_0125,24,Test environments should be built for the application to allow testing of the applications different functions.,MN,maintainability,6
+REQ_0126,13,The WCS system must run queries to the WCS databases once again (on a specified day) to update the available data available to CCR users. Queries must be made to external databases for data refresh once a week.,MN,maintainability,8
+REQ_0127,24,The application should be easy to extend. The code should be written in a way that it favors implementation of new functions.,MN,maintainability,10
+REQ_0128,6,The customer shall be able to easily integrate new building maps with the product throughout the product92s lifecycle. Integration of new maps with the product shall be possible with little to no support from product support staff.,MN,maintainability,1
+REQ_0129,6,The product must be designed using Design Patterns and coding best practices. 90% of maintenance software developers are able to integrate new functionality into the product with 2 working days.,MN,maintainability,5
+REQ_0130,6,The product must be highly configurable for use with various database management systems for the end users. 80% of end users are able to integrate new database management systems with the product without changing the product92s software code.,MN,maintainability,4
+REQ_0131,8,The product shall be expected to operate within the maximum maintenance budget for a minimum of 2 years.,MN,maintainability,8
+REQ_0133,12,The product shall be updated on a regular basis.The product will have a new major feature introduced every six months and quarterly maintenance releases every six months.,MN,maintainability,4
+REQ_0134,12,The product shall continue to operate during upgrade change or new resource addition.The product shall be able to continue to operate with no interruption in service due to new resource additions.,MN,maintainability,4
+REQ_0135,12,The product shall operate with every platform.The product shall accommodate any new technology without any change in its architecture.,MN,maintainability,5
+REQ_0136,48,The system should be easy enough to maintain that someone else could do it with a manual and a few hours training.,MN,maintainability,3
+REQ_0137,9,Washing parameters will be updated during scheduled maintenance hours.,MN,maintainability,1
+REQ_0139,15,98% of the user workstations shall meet the minimum software requirements prior to implementation: Microsoft Internet Explorer 5.0. Microsoft .NET Framework 1.1. Microsoft Internet Explorer Web Controls,O,operational,5
+REQ_0141,14,A primary database will be used to store cached data for active users.,O,operational,6
+REQ_0142,14,A secondary database will be used to store historical statistics and data.,O,operational,2
+REQ_0143,8,All aspects of the website shall be accessed by a web browser over the Internet.,O,operational,3
+REQ_0144,22,All data entry forms for the application should match their Microsoft Excel hardcopy counterparts as closely as possible. Hardcopies of these forms were provided to the design team during the second requirements interview.,O,operational,5
+REQ_0145,31,Flea Market system will interface with the web server and RDBMS software using APIs provided by the implementation language,O,operational,4
+REQ_0146,5,For estimators the product shall be able to be operated in a repair facility during dirty and noisy conditions.,O,operational,8
+REQ_0147,35,For the system to successfully operate the registration system should be integrated with other IT services and the portal.,O,operational,3
+REQ_0148,32,It must be able to change and update information on the server.,O,operational,8
+REQ_0149,32,It must only update the parts that have changed when connecting to the server.,O,operational,6
+REQ_0150,8,Movies shall be encoded and streamed via Windows Media Player 9.0.,O,operational,5
+REQ_0151,8,Movies shall be encoded for 56k and 256k streams.,O,operational,7
+REQ_0152,5,Product installations and upgrades shall be handled by the middleware technology team within established launch time frames.,O,operational,7
+REQ_0153,13,The Brio portion of the WCS system must be able to export files in spreadsheet form (Microsoft Excel and Lotus 1-2-3 formats). Brio will provide buttons in the user interface that produce/export reports in .xls or .123 file formats.,O,operational,10
+REQ_0154,4,The Disputes application shall be available 24x7x365 with the exception of the following scheduled maintenance windows. Monday 96 Saturday 3:00am to 4:00am EST Sunday 1:00amd to 5:00am EST,O,operational,8
+REQ_0155,4,The Disputes application shall interface with the Cardmember Information Database. The Cardmember Information Database provides detailed information with regard to a cardmember. All cardmember detail information must be obtained from the Cardmember Information Database.,O,operational,4
+REQ_0156,4,The Disputes application shall interface with the Cardmember Posting and Billing System. This will allow the Disputes application to request adjustments to cardmember and merchant92s accounts. All adjustment requests must be sent to the Cardmember Posting and Billing System.,O,operational,3
+REQ_0157,4,The Disputes application shall interface with the Letters application. This will allow the Disputes application to request letters as part of the dispute initiation and dispute follow up process. All letter requests must be sent to the Print Letter Utility application.,O,operational,8
+REQ_0158,4,The Disputes application shall interface with the Statement Database. The Statement Database provides the transaction details to the Disputes System. All transaction details must be obtained from the Statement Database,O,operational,7
+REQ_0160,15,The RFS system should be able to easily interface with the BDW environment in order to load the data. 95 7 data files shall be received from the BDW and loaded into the RFS system within 3 hours one day prior to the start of budgeting process every year. The data will be as of October month-end. Test files (7) shall be loaded up to 5 times throughout the year from the BDW.,O,operational,8
+REQ_0161,7,The System shall be able to automatically backup business data and restore them on demand.,O,operational,3
+REQ_0162,7,The System shall not require additional third party licenses resulting in royalty fees.,O,operational,2
+REQ_0163,7,The System shall utilize currently owned computer equipment.,O,operational,2
+REQ_0164,13,The WCS system shall be run in a Windows environment. The WCS shall be accessed by users through the Internet on an IBM computer running a Windows 2000 or above operating system.,O,operational,3
+REQ_0166,37,The available server must be reliable and the network connectivity in the supermarket should be proper for smooth flow of all operations and data.,O,operational,10
+REQ_0167,9,The lead washing process will operate within the established physical web service structure.,O,operational,10
+REQ_0168,5,The maintenance of the product will fall within the established corporate maintenance windows.,O,operational,8
+REQ_0169,18,The meeting scheduler shall be accessed from the Web.,O,operational,1
+REQ_0170,6,The product is expected to integrate with multiple database management systems. The product will operate with Oracle SQL Server DB2 MySQL HSQL and MS Access.,O,operational,6
+REQ_0171,6,The product must be able to interface with any HTML browser. The product shall transmit data between the user and the product without problems. The product shall display HTML properly in 80% of all HTML browsers tested (minimum is to test 8 browsers).,O,operational,10
+REQ_0172,6,The product must be able to interface with various database management systems. The product shall communicate successfully with the database management system on 100% of all transactions.,O,operational,8
+REQ_0173,6,The product must be able to interface with various email servers. The product shall be able to send email.,O,operational,10
+REQ_0174,6,The product must be developed with the J2SE/J2EE programming language libraries,O,operational,10
+REQ_0175,6,The product must make use of web/application server technology. Open source examples include Apache web server Tomcat and the JBoss application server.,O,operational,5
+REQ_0176,5,The product must support Internet Explorer 5.5 and above.,O,operational,4
+REQ_0177,5,The product must support Mozilla Firefox 1.0 and above.,O,operational,6
+REQ_0178,6,The product must work with most database management systems (DBMS) on the market whether the DBMS is colocated with the product on the same machine or is located on a different machine on the computer network.,O,operational,2
+REQ_0180,6,The product shall be able to be installed in any operating environment within 2 days.,O,operational,3
+REQ_0181,8,The product shall be able to be installed in the specified environment within 1 working day.,O,operational,10
+REQ_0182,6,The product shall be available for distribution as a packaged CD.,O,operational,7
+REQ_0183,6,The product shall be available for distribution via the Internet as a binary or ZIP file.,O,operational,1
+REQ_0184,46,The product shall be based on web and has to be run from a web server.,O,operational,8
+REQ_0186,5,The product shall be supported using the corporate support center.,O,operational,1
+REQ_0187,6,The product shall be used in office environments.,O,operational,4
+REQ_0188,12,The product shall interface CSR and Datastream.The product shall exchange messages between CSR and EAM on a real time basis without any direct interfaces between two systems.,O,operational,3
+REQ_0190,5,The product shall interface with the ChoiceParts system once per day at approximately 1:00 AM.,O,operational,1
+REQ_0191,5,The product shall run on the existing hardware for all environments.,O,operational,4
+REQ_0192,6,The product will be available for licensing as a one-server two-five servers or five-or-more servers license.,O,operational,2
+REQ_0193,6,The product will function alongside server software on any operating system where the Java runtime can be installed.,O,operational,5
+REQ_0194,6,The product will require collaboration with a database management system (DBMS). The DBMS may be located on the same machine as the product or on a separate machine residing on the same computer network.,O,operational,4
+REQ_0195,8,The same hardware supporting the current website will be used to support the new system.,O,operational,6
+REQ_0196,34,The system provides storage of all databases on redundant computers with automatic switchover.,O,operational,10
+REQ_0197,3,The system shall able to operate within a business office environment typical of the Nursing Department at DePaul University.,O,operational,6
+REQ_0198,43,The system shall be compatible with the Microsoft Windows Operating System.,O,operational,5
+REQ_0199,16,The system shall be evoked by typing “pine” into a command or shell prompt.,O,operational,3
+REQ_0200,3,The system shall be used within the specifications defined by the computers used by the Program Administrators/Nursing Staff Members.,O,operational,5
+REQ_0201,3,The system shall interface with CampusConnect92s central server,O,operational,4
+REQ_0202,3,The system shall interface with the faculty central server.,O,operational,1
+REQ_0203,3,The system shall interface with the student master server.,O,operational,7
+REQ_0205,16,The system shall use the SMTP mail protocol.,O,operational,7
+REQ_0206,27,The system shall utilise periodic 30-second keep-alive messages between tablets and the server to monitor tablet operational status.,O,operational,6
+REQ_0207,35,The system should be able to manage all the information incoming from the database and the catalogue.,O,operational,2
+REQ_0208,33,The system should have to keep the location where the doughnut will be send.,O,operational,2
+REQ_0209,9,The washing process must use a non binding neutral data format such as xml when receiving and processing lead data.,O,operational,4
+REQ_0210,8,The website should use Flash to provide animation on the home page.,O,operational,2
+REQ_0211,3,We must be able to interface with any HTML browser.,O,operational,1
+REQ_0212,8,We must be able to interface with the following browsers: IE 5.X 6.0 Netscape 6.x 7.x 8.x and Firefox 1.0.,O,operational,1
+REQ_0213,8,Website must be fully operational with MSN TV2.,O,operational,1
+REQ_0214,8,Website must interface with the CyberSource API to process credit card transactions.,O,operational,7
+REQ_0215,8,Administrator shall be able to activate a pre-paid card via the Administration section in under 5 seconds.,PE,performance,8
+REQ_0216,20,All Web pages generated by the system shall be fully downloadable in no more than 10 seconds over a 40KBps modem connection.,PE,performance,8
+REQ_0217,8,Any interface between a user and the automated system shall have a maximum response time of 5 seconds unless noted by an exception below.,PE,performance,3
+REQ_0218,48,Any page of the application should not take more than 6 seconds to load on a DSL broadband connection.,PE,performance,4
+REQ_0219,8,Customer shall be able to check the status of their prepaid card by entering in the PIN number in under 5 seconds.,PE,performance,7
+REQ_0221,37,High level of performance requires high speed network and high level of connectivity.,PE,performance,8
+REQ_0222,8,Izogn Administrator must be able to add new products to the website within 2 minutes.,PE,performance,3
+REQ_0223,8,Izogn Administrator must be able to update the category listings on the website within 2 minutes.,PE,performance,8
+REQ_0224,9,No lead evaluation will complete in a time period longer than 25 seconds for 97% of all leads processed.,PE,performance,2
+REQ_0225,11,On a 112k connection or faster the system response time for all operations must be no more than 3 seconds 90% of the time.,PE,performance,10
+REQ_0226,11,On a 56k connection the system response time for all operations must be no more than 6 seconds 90% of the time.,PE,performance,4
+REQ_0227,7,Recreation of Inventory Quantity Adjustment for the period of previous 30 days shall take no more than 30min.,PE,performance,2
+REQ_0229,29,Responses to view information shall take no longer than 5 seconds to appear on the screen.,PE,performance,7
+REQ_0230,3,Staff members shall be able to complete a set of tasks in a timely manner.,PE,performance,5
+REQ_0231,8,System shall let Izogn Manager access sales and usage statistics in under 2 minutes.,PE,performance,7
+REQ_0232,8,System shall let administrator add/remove movies on the website in under 5 minutes. Entered movie information will be stored in the database and will now be available on the website.,PE,performance,10
+REQ_0233,8,System shall let administrator de-activate a customer account in under 1 minute. Customer will no longer be able to access the website.,PE,performance,6
+REQ_0234,8,System shall let administrators generate unique pre-paid pins in under 2 minutes and generate an Excel file with the generated PINs.,PE,performance,2
+REQ_0235,8,System shall let customers cancel their account process shall take no longer than 2 minutes. Database will mark the account as inactive and user will not be able to log into the website.,PE,performance,4
+REQ_0236,8,System shall let customers register on the website as a 93pay as you go94 user in under 5 minutes.,PE,performance,8
+REQ_0237,8,System shall let customers register on the website as a 93unlimited movie subscriber94 user in under 10 minutes.,PE,performance,5
+REQ_0238,8,System shall let existing customers log into the website with their email address and password in under 5 seconds.,PE,performance,5
+REQ_0239,8,System shall let the administrator add/remove categories on the website in under 5 minutes.,PE,performance,3
+REQ_0240,2,The CMA report shall be returned no later 60 seconds after the user has entered the CMA report criteria.,PE,performance,5
+REQ_0241,4,The Disputes application shall support 350 concurrent users without any degradation of performance in the application.,PE,performance,2
+REQ_0242,7,The System shall allow for a minimum of 6 users to work at the same time.,PE,performance,10
+REQ_0243,14,The application shall be able to complete every user transaction within one fourth of a second of receiving the request over the network.,PE,performance,10
+REQ_0244,48,The application should be able to support 100 concurrent users without any performance degradation.,PE,performance,7
+REQ_0245,4,The maximum wait time for a user navigating from one screen to another within the Disputes application shall be no more than 5 seconds.,PE,performance,1
+REQ_0247,5,The preferred repair facility ratings shall be saved within 5 seconds. The save shall occur within 5 seconds.,PE,performance,6
+REQ_0248,9,The process must fit within the processing time conditions set forth by the Auto Rep Assignment process in which a lead is assigned within 3 minutes of the total life cycle.,PE,performance,6
+REQ_0249,15,The product interface should be fast. The response time of the product interface should not exceed 2 seconds 90% of the time. For 10% of the time the response time should not be more than 10 seconds.not be more than 10 seconds.,PE,performance,7
+REQ_0250,10,The product shall able to handle a large number of games simultaneously.,PE,performance,10
+REQ_0251,2,The product shall generate a CMA report in an acceptable time.,PE,performance,10
+REQ_0252,12,The product shall poll the system for messages every second.The product shall poll the system for new messages at a maximum of every 1 second.,PE,performance,6
+REQ_0253,12,The product shall process messages within 2 seconds.The product shall have a maximum message processing time of 2 seconds,PE,performance,4
+REQ_0254,2,The product shall produce search results in an acceptable time,PE,performance,1
+REQ_0255,10,The product shall protect the identity of the players. The product shall provide players no access to information that might reveal the identity of another player.,PE,performance,5
+REQ_0256,12,The product shall provide Asynchronous Messaging.The product shall provide asynchronous messaging to enable parallel processing and reduce the overhead in communications,PE,performance,7
+REQ_0257,12,The product shall provide Dynamic Change Support and Transparent resource addition.The product shall support Transparent Resource addition and Dynamic Change support to provide scalability and avoid service interruptions of more than 1 day.,PE,performance,8
+REQ_0258,12,The product shall provide Multi-threading and Load Balancing.The product shall provide multi-threading technology as well as load balancing to overcome data load spikes and traffic.,PE,performance,2
+REQ_0259,1,The product shall respond fast to keep up-to-date data in the display.,PE,performance,6
+REQ_0260,2,The product shall synchronize contacts and appointments in an acceptable time.,PE,performance,3
+REQ_0262,46,The product shall take initial load time depending on internet connection strength which also depends on the media from which the product is run.,PE,performance,4
+REQ_0264,6,The response shall be fast enough to avoid interrupting the user92s flow of thought. 90% of tasks shall complete within 5 seconds. 98% of tasks shall complete within 8 seconds.,PE,performance,6
+REQ_0265,3,The response time of general student management tasks shall take no longer than 5 seconds and the response time of schedule generation shall take no longer than 30 seconds.,PE,performance,1
+REQ_0266,10,The response time shall be fast enough to maintain the flow of the game. The response time shall be no more than 2 seconds for 95% of responses and no more than 4% for the remaining responses.,PE,performance,4
+REQ_0267,10,The response time shall be fast enough to maintain the flow of the game. The response time shall be no more than 2 seconds for 95% of responses and no more than 4% for the remaining responses.,PE,performance,6
+REQ_0268,5,The search for recycled parts shall take no longer than 15 seconds. The search results shall be returned in under 15 seconds.,PE,performance,3
+REQ_0269,5,The search for the preferred repair facility shall take no longer than 8 seconds. The preferred repair facility is returned within 8 seconds,PE,performance,2
+REQ_0271,40,The system is expected to have reasonable short time response. The voter should be able to login and should be able to get response for his requests in 2-3 seconds.,PE,performance,1
+REQ_0273,11,The system shall be responsive. At the DePaul TeleServices Center when a supervisor uses the system to view a callers schedule the system response time must be no more than 2 seconds 90% of the time and no more than 5 seconds the rest of the time.,PE,performance,10
+REQ_0274,20,The system shall display confirmation messages to users within 4 seconds after the user submits information to the system.,PE,performance,1
+REQ_0275,1,The system shall refresh the display every 60 seconds.,PE,performance,5
+REQ_0276,49,The system shall support up to 10000 simultaneous users against the central database at any given time and up to 5000 simultaneous users against the local servers at any one time. The performance of the website must be optimal incase of huge loads and hence appropriate load balancing must be done to achieve this. There can be any number of mirror servers readily available in case of huge loads without the user getting any delay.,PE,performance,5
+REQ_0277,45,The web application shall add no more than 5 seconds of perceivable overhead time to any necessary web and database transaction time.,PE,performance,7
+REQ_0278,9,Total lead cycle time must be completed in 5 minutes for 90% of lead volume between the business hours of 8AM CST to 8PM CST; then 3 minutes for 99% of lead volume during off business hours.,PE,performance,8
+REQ_0279,8,When purchasing a streaming movie or pre-paid card via credit card the processing time should have a maximum response time of 15 seconds.,PE,performance,1
+REQ_0280,8,When streaming a movie the buffering time should take no longer than 10 seconds (plus any latency on the user92s connection.),PE,performance,3
+REQ_0281,8,While streaming a movie buffering should only occur if there is latency in the user92s connection.,PE,performance,1
+REQ_0282,34,An end-user may use this system on any OS; either it is Windows or Linux.,PO,portability,7
+REQ_0283,36,Since the software must run on several popular hardware platforms and the goal is to achieve a reasonable level of platform independence.,PO,portability,3
+REQ_0284,35,The Web interface should be compatible with standards in order to be usable via all major Web browsers in a wide variety of environments.,PO,portability,2
+REQ_0285,24,The application should be portable with iOS and Android.,PO,portability,5
+REQ_0286,35,The product is Web based therefore it will be used in any environment that allows Web access.,PO,portability,10
+REQ_0288,45,The system shall be compatible with IIS6.0 and above or Apache 2.0 and above.,PO,portability,1
+REQ_0289,16,The system shall operate on Unix and Windows operating systems.,PO,portability,8
+REQ_0290,45,The system shall run on Windows Server 2003.,PO,portability,4
+REQ_0291,48,The system should be portable to various operating environments.,PO,portability,6
+REQ_0292,28,The system will fully function in major browsers.,PO,portability,3
+REQ_0293,28,The system will support mobile users in some way.,PO,portability,2
+REQ_0294,13,The WCS system shall have the ability to connect other designated WCS databases currently not included in the system.,SC,scalability,7
+REQ_0295,13,The WCS system shall have the ability to include data for regions outside the United States and be accessed by users outside of the United States if approved by CCR management.,SC,scalability,4
+REQ_0296,5,The average number of recycled parts records per day shall be 50 000.,SC,scalability,6
+REQ_0297,6,The language of the product shall accommodate all of the target market countries. 90% of survey respondents from each target market country will find that the language of the product is acceptable.,SC,scalability,4
+REQ_0298,2,The product shall be able support 1000 simultaneous users.,SC,scalability,5
+REQ_0299,5,The product shall be able to handle 10 000 concurrent users within 2 years of the initial launch.,SC,scalability,3
+REQ_0300,5,The product shall be able to handle up to 1500 simultaneous users. The system shall perform with 1500 users as a time.,SC,scalability,8
+REQ_0301,6,The product shall be able to process 10 000 transactions per hour within two years of its launch. This number will increase to 20 000 by Release 2.,SC,scalability,5
+REQ_0302,12,The product shall be able to process all transactions.The product shall process minimum of 1 million transactions per year.,SC,scalability,5
+REQ_0303,2,The product shall be able to support multiple remote users,SC,scalability,1
+REQ_0304,2,The product shall be capable of handling the existing 1000 users. This number is expected to grow 5 times within the next year.,SC,scalability,2
+REQ_0305,6,The product shall be capable of handling up to 1 000 concurrent requests. This number will increase to 2 000 by Release 2. The concurrency capacity must be able to handle peak scheduling times such as early morning and late afternoon hours.,SC,scalability,4
+REQ_0307,8,The server will support a maximum of 1 000 simultaneous users.,SC,scalability,3
+REQ_0308,8,The streaming server will support 50 simultaneous streaming connections.,SC,scalability,10
+REQ_0309,8,The streaming server will support a maximum of 700 movies; new servers can be added to support more movies.,SC,scalability,1
+REQ_0310,3,The system shall be capable of processing 100% of nursing students and their classes for the next 10 years.,SC,scalability,6
+REQ_0311,3,The system shall be expected to manage the nursing program curriculum and class/clinical scheduling for a minimum of 5 years.,SC,scalability,8
+REQ_0312,3,The system shall cater to 10 simultaneous users from 9am to 5pm.,SC,scalability,10
+REQ_0313,48,The system should be able to scale up to 500 concurrent users (if there is a need in the future) by installing additional hardware components.,SC,scalability,7
+REQ_0314,8,The website shall be capable of supporting 100 000 customers.,SC,scalability,2
+REQ_0316,32,A correct combination of username and password is required for a user to login.,SE,security,5
+REQ_0317,8,A customer can only stream a movie if they purchased it and are within the 2 day viewing period.,SE,security,7
+REQ_0318,27,A display shall not require a user to log in.,SE,security,5
+REQ_0319,48,A secure server will be required to ensure confidentiality of customer’s credit card and other details.,SE,security,5
+REQ_0320,27,A surface computer shall not require a user to log in.,SE,security,1
+REQ_0321,27,A tablet shall require a user to log in using a username and password.,SE,security,6
+REQ_0322,27,A waiter password used for tablet login must be changed every three months.,SE,security,8
+REQ_0324,27,A waiter shall only be able to log into one tablet at any given instance of time.,SE,security,8
+REQ_0325,27,A waiter that attempts to log into a second tablet while already logged into another tablet shall be rejected and notified through both tablets.,SE,security,10
+REQ_0326,4,All additions of new users and modifications to user92s access shall be recorded on the User Report.,SE,security,7
+REQ_0327,4,All authorized users once authenticated must be able to logon to the Disputes System,SE,security,8
+REQ_0328,8,All credit card information will be encrypted in the database.,SE,security,4
+REQ_0329,8,All credit card information will be secured on the server and only accessible by authorized Izogn administrators. Information will be encrypted in the database.,SE,security,8
+REQ_0330,8,All customer information will be stored on a secure database accessible only to authorized personnel.,SE,security,7
+REQ_0331,43,All login attempts shall be done so in a secure manner.,SE,security,8
+REQ_0332,20,All network transactions that involve financial information or personally identifiable information shall be encrypted.,SE,security,8
+REQ_0333,40,All the passwords that are generated or accepted must be stored in database in an encrypted form.,SE,security,1
+REQ_0334,31,All transactions at the Flea Market require a valid user ID and password.,SE,security,1
+REQ_0335,4,All updates to data files or database must be initiated from the Disputes System.,SE,security,10
+REQ_0336,43,All users of the system shall login using some form of unique identification.,SE,security,8
+REQ_0337,38,Customers must have a valid login id to enter into the site.,SE,security,1
+REQ_0338,8,Data integrity scripts will be run on a weekly basis to verify the integrity of the database.,SE,security,6
+REQ_0339,3,Dr Susan Poslusny and Dr Julie Donalek are the only people who shall have access to students92 personal information.,SE,security,6
+REQ_0340,32,Each account must securely store all of its data.,SE,security,7
+REQ_0341,14,Each team owner will need to use a username and password in order to be authenticated to reach the team owner92s page,SE,security,8
+REQ_0342,36,Each user shall either be trusted or not trusted.,SE,security,6
+REQ_0343,37,Every user of the software is provided a unique login ID and a password which is stored in the database hashed by SHA2 algorithm.,SE,security,7
+REQ_0346,3,Fit Criterion: Dr Susan Poslusny and Karen Sysol are the only people who shall have access to the final class section scheduling for the system that interfaces with CampusConnect.,SE,security,10
+REQ_0347,32,Full data backups must be created daily.,SE,security,3
+REQ_0348,4,If a user account is revoked it can only be re-instantiated by the System Administrator.,SE,security,7
+REQ_0349,30,Information transmission should be securely transmitted to server without any changes in information.,SE,security,6
+REQ_0350,32,Logout must be automatic after 1 hour of inactivity.,SE,security,6
+REQ_0351,38,Normal users can just read information but they cannot edit or modify anything except their personal and some other information.,SE,security,3
+REQ_0353,5,Only adjusters can request recycled parts audit reports. No users without an adjuster role shall request recycled parts audits.,SE,security,2
+REQ_0355,8,Only administrators can activate a pre-paid card.,SE,security,1
+REQ_0356,8,Only authorized personnel can access customer records in the database.,SE,security,2
+REQ_0357,8,Only authorized personnel can access sales information.,SE,security,2
+REQ_0358,15,Only authorized user shall access the RFS system. ONLY users that exist in the UAS system with the RFS system assigned to their role(s) shall access the RFS system and use it.,SE,security,10
+REQ_0359,3,Only authorized users shall have access to clinical site information.,SE,security,1
+REQ_0360,3,Only authorized users shall have access to students92 personal information.,SE,security,2
+REQ_0361,3,Only authorized users shall have access to the portion of the system that interfaces with CampusConnect.,SE,security,4
+REQ_0362,5,Only collision estimators shall search for recycled parts. Users without the collision estimator role shall not have access to the search for recycled parts.,SE,security,3
+REQ_0363,6,Only managers are able to perform search queries for reservations by user. 100% of all search queries for reservations by user shall be from logons of only management logons.,SE,security,1
+REQ_0364,8,Only registered customers can purchase streaming movies.,SE,security,2
+REQ_0365,2,Only registered realtors shall be able to access the system.,SE,security,6
+REQ_0366,4,Only the System Administrator shall be able to reset a revoked user logon account,SE,security,7
+REQ_0367,20,Only users who have been authorized for home access to the corporate Intranet may use the COS from non-company locations.,SE,security,5
+REQ_0368,4,Only users with Update access must be able to initiate dispute requests.,SE,security,8
+REQ_0369,5,Only valid data shall be entered into the system. No invalid data shall be entered into the system.,SE,security,3
+REQ_0370,20,Patrons shall log in according to the restricted computer system access policy.,SE,security,5
+REQ_0371,45,Personal information security is defined outside the scope of the SDMS by the database server.,SE,security,4
+REQ_0372,3,Program Administrators/Nursing Staff Members are the only people who shall have access to clinical site details.,SE,security,3
+REQ_0373,31,Secure data transfer over the Internet could be provided using SSL encryption that will be configured by the host system administrator.,SE,security,4
+REQ_0375,21,System security and access levels are provided in the online system. There are varying levels of system access and functional authority. Each student’s access is limited to his/her own registration records. Only authorized system administrator(s) has access to all student registration records.,SE,security,10
+REQ_0376,38,System use shall not cause any harm to human users.,SE,security,4
+REQ_0377,38,System will have different types of users and every user has access constraints.,SE,security,1
+REQ_0378,38,System will use secured database,SE,security,7
+REQ_0379,29,System will use secured database.,SE,security,4
+REQ_0380,14,The Commissioner will be the only authorized user per league to adjust league settings.,SE,security,8
+REQ_0381,4,The Disputes System shall generate a User Report that details any new users that have been added and any changes to an existing user92s access level. The report will be reviewed for auditing purposes.,SE,security,1
+REQ_0383,4,The Disputes application shall ensure that only users with the appropriate access level are allowed to initiate dispute requests.,SE,security,6
+REQ_0384,4,The Disputes application shall manipulate and view business data. Users will not have direct access to data files or databases.,SE,security,2
+REQ_0385,31,The IP addresses where the transaction was made from will be logged.,SE,security,4
+REQ_0386,7,The System shall granularly control access rights to all major subsystems. It should be possible to assign access rights to all subsystems independently.,SE,security,7
+REQ_0387,7,The System shall maintain consistent security. Any changes in user passwords and/or permissions should take affect in all parts of the System.,SE,security,10
+REQ_0388,13,The WCS system shall not allow automatic logins by any user. Cookies containing WCS login information about a user will not be stored on a user92s computer.,SE,security,7
+REQ_0389,32,The application must log the user out when it is exited.,SE,security,7
+REQ_0390,46,The customer’s web browser shall never display a customer’s credit card number after retrieving from the database. It shall always be shown with just the last 4 digits of the credit card number.,SE,security,5
+REQ_0392,40,The data transaction between client and server must be encrypted using SSL technology.,SE,security,3
+REQ_0393,1,The product shall ensure that it can only be accessed by authorized users. The product will be able to distinguish between authorized and unauthorized users in all access attempts,SE,security,2
+REQ_0394,6,The product shall ensure that only company employees or external users with company-approved user IDs may have product access. 100% of all logons shall be by either company employees or external users with company-approved user IDs.,SE,security,6
+REQ_0395,11,The product shall ensure that only supervisors can advertise empty time slots.The product must ensure that supervisors are allowed to access advertise empty time slots.,SE,security,10
+REQ_0396,11,The product shall ensure that only supervisors can enter a caller92s schedule.The product must ensure that supervisors are allowed to access advertise empty time slots.,SE,security,3
+REQ_0397,11,The product shall ensure that only supervisors can view schedule of all callers.The product must ensure that supervisors are allowed to access advertise empty time slots.,SE,security,6
+REQ_0398,6,The product shall ensure that the database92s data corresponds to the data entered by the user. Each conference room reservation in the system will contain the same information as was entered by the user.,SE,security,5
+REQ_0399,5,The product shall free of computer viruses.,SE,security,5
+REQ_0400,12,The product shall have audit capabilities.The product shall store messages for a minimum of one year for audit and transaction tracking purposes.,SE,security,8
+REQ_0401,12,The product shall have security.The product shall provide authentication and authorization.,SE,security,2
+REQ_0402,6,The product shall have the ability to receive automatic software updates as new threats emerge. 100% of customers will be able to receive automatic software updates transmitted to the installed product.,SE,security,4
+REQ_0403,12,The product shall information Security. The product shall enable privacy by encryption WS-Security and Integrity Checking.,SE,security,1
+REQ_0404,2,The product shall prevent its data from incorrect data being introduced.,SE,security,4
+REQ_0406,10,The product shall provide players no access to information that might reveal the identity of another player,SE,security,4
+REQ_0407,36,The software system needs a robust security mechanism in place so that unauthorized users are not allowed access to parts of the system.,SE,security,10
+REQ_0408,8,The streaming server will have anti-virus software to prevent infection of malicious viruses.,SE,security,5
+REQ_0409,34,The system must automatically log out all customers after a period of inactivity.,SE,security,10
+REQ_0410,46,The system shall automatically log out all customers after a period of inactivity.,SE,security,3
+REQ_0411,3,The system shall be built such that it is as secure as possible from malicious interference.,SE,security,1
+REQ_0412,3,The system shall have basic data integrity checking to reduce the possibility of incorrect or invalid data being introduced.,SE,security,2
+REQ_0413,46,The system shall not leave any cookies on the customer’s computer containing any of the user’s confidential information.,SE,security,10
+REQ_0414,46,The system shall not leave any cookies on the customer’s computer containing the user’s password.,SE,security,6
+REQ_0415,8,The system shall notify customers of changes to its information policy.,SE,security,6
+REQ_0417,5,The system shall prevent malicious attacks including denial of service.,SE,security,6
+REQ_0418,3,The system shall protect private information in accordance with the organization92s information policy.,SE,security,3
+REQ_0419,8,The system shall reveal private information only in compliance with the organization92s information policy.,SE,security,8
+REQ_0420,47,The system shall use secure socket layer (SSL) technology to ensure all payments made online and user logins are secure.,SE,security,10
+REQ_0421,46,The system shall use secure sockets in all transactions that include any confidential customer information.,SE,security,2
+REQ_0422,3,The system shall use the organization92s standard virus protection software to help monitor threats to itself.,SE,security,8
+REQ_0423,45,The system shall utilize HTTPS communication to ensure data confidentiality.,SE,security,10
+REQ_0424,34,The system should not leave any cookies on the customer’s computer containing the user’s password.,SE,security,3
+REQ_0425,34,The system use SSL (secured socket layer) in all transactions that include any confidential customer information.,SE,security,1
+REQ_0426,35,The system will develop a security system that will reduce to the minimum the possibility of corruption from systems and/or humans.,SE,security,5
+REQ_0427,47,The system will use a single password per user to login to the E-Store System.,SE,security,5
+REQ_0430,34,The system’s back-end servers shall only be accessible to authenticated administrators.,SE,security,4
+REQ_0431,49,The website must provide highest degree of security to the registered users. All the transactions that are made must be secured. The sensitive information passed to and from the website must be secured. Identity theft and other security related issues must be solved. Unauthorized transmission of sensitive information of the user to third party websites for reference must be avoided. On the basis of user agreement the information must be processed. All the information about the registered user must be securely stored in the central database.,SE,security,3
+REQ_0433,8,The website shall prevent its data from being corrupted when incorrect data is entered in.,SE,security,2
+REQ_0434,8,The website shall protect itself from intentional abuse and notify the administrator at all occurrences.,SE,security,7
+REQ_0435,40,To prevent attacks the system should generate random word and ask the user to enter it correctly for multiple tryings.,SE,security,10
+REQ_0436,29,Unauthorised users can only read data without modifying anything.,SE,security,5
+REQ_0437,15,User access should be limited to the permissions granted to their role(s) Each level in the PCG hierarchy will be assigned a role and users will be assigned to these roles. Access to functionality within RFS system is dependent on the privileges/permission assigned to the role..,SE,security,7
+REQ_0438,45,User authentication and privileges are defined outside the scope of the sytem by the Microsoft Active Directroy Server.,SE,security,4
+REQ_0439,31,User passwords will be stored in the database in an encrypted format.,SE,security,3
+REQ_0440,45,Users shall be required to log into the system for all operations except the operations on the login page.,SE,security,2
+REQ_0441,4,100% of cardmember services representatives shall be able to successfully create a dispute case on the first encounter after completing the training course.,US,usability,1
+REQ_0442,4,100% of merchant services representatives shall be able to successfully perform a follow up action on a dispute case on the first encounter after completing the training course.,US,usability,4
+REQ_0443,4,100% of the cardmember and merchant services representatives shall use the Disputes application regularly after a 2-day training course.,US,usability,1
+REQ_0444,3,2 out of 3 Program Administrators/Nursing Staff Members shall successfully be able to use the system to manage the scheduling of classes and clinicals.,US,usability,3
+REQ_0446,23,95% of users will not need to read the user manual to be able to use the application.,US,usability,5
+REQ_0447,6,A new user must be able to be added to the system within 10 minutes. 90% of new users are able to log into the system within 10 minutes.,US,usability,1
+REQ_0448,14,A new user shall be able to navigate through the league and team pages within 30 seconds of reaching the start-up page.,US,usability,6
+REQ_0449,13,A user shall be able to use the system without instruction after a short amount of time. After one use a user should understand and remember 90% of the system usage and navigation.,US,usability,7
+REQ_0450,13,All CCR users shall receive training before the WCS system is deployed. One training session will be held for 100% of CCR users before system deployment (based on a CCR user being available),US,usability,6
+REQ_0451,3,All of the users shall be able to use the system after one day of training.,US,usability,2
+REQ_0452,8,An anonymous survey will show that 70% of customers are comfortable purchasing streaming movies after 2 weeks using the website.,US,usability,3
+REQ_0453,8,An anonymous survey will show that 95% of customers are comfortable using and purchasing pre-paid cards after a month of using the system.,US,usability,3
+REQ_0454,6,An employee will be able to successfully use the product within a few minutes. After informally navigating the product for less than 15 minutes users shall be able to successfully setup meetings and reserve conference rooms.,US,usability,2
+REQ_0455,6,Every registered user will have access to the product92s support site via the Internet. 70% of registered users shall find a solution to their problem within 5 minutes of using the support site.,US,usability,7
+REQ_0456,1,If projected the data must be readable. On a 10x10 projection screen 90% of viewers must be able to read Event / Activity data from a viewing distance of 30,US,usability,8
+REQ_0457,1,If projected the data must be understandable. On a 10x10 projection screen 90% of viewers must be able to determine that Events or Activities are occuring in current time from a viewing distance of 100,US,usability,7
+REQ_0458,48,It should not take more than 120 seconds for a new user to register for an account.,US,usability,2
+REQ_0459,48,It should not take more than 90 seconds for a registered user to place an order.,US,usability,5
+REQ_0460,13,Reports must be easy to generate. Reports must be generated within one button click and exported within one button click (after selecting the report),US,usability,10
+REQ_0461,13,The WCS system shall use appropriate nomenclature and terminology as defined by the Corporate Community Grants organization. All interfaces and reports will undergo usability tests by CCR users.,US,usability,1
+REQ_0462,14,The application shall ask the user to confirm dropping a player or trading a player before performing the action.,US,usability,5
+REQ_0463,49,The entire website must be user-friendly and easily navigable. The website must be provided with a site map for quick access to a particular link according to the requirement specification. The user must be able to find what he/she wants from the site without any difficulty. The website must adhere to branding schemes and the layout of the web pages must be uniform throughout,US,usability,5
+REQ_0464,13,The interface shall be easy to use. 90% of users should be able to successfully use the system to generate a report on their first use. The interface should adhere to IBM usability standards.,US,usability,1
+REQ_0465,4,The list of dispute cases that are displayed after a search is performed must be color coded for easy identification of dispute cases based upon the dispute case status.,US,usability,2
+REQ_0467,3,The number of mistakes noted by the students shall be decreased by 50% in the first year.,US,usability,3
+REQ_0468,6,The product shall allow for customization of start page and views preferences.,US,usability,8
+REQ_0469,6,The product shall allow for intuitive searching of available conference rooms.,US,usability,5
+REQ_0470,6,The product shall allow the user to select a chosen language from one of the target market countries.,US,usability,10
+REQ_0471,6,The product shall be able to display calendar dates and times according to the user92s locale. 90% of survey respondents from each target market country will find that the date and time formatting of the product is correct.,US,usability,5
+REQ_0472,10,The product shall be available to players who understand English Spanish and French. The product shall allow the user to select the language upon accessing the product.,US,usability,4
+REQ_0473,2,The product shall be easy for a realtor to learn.,US,usability,4
+REQ_0474,8,The product shall be easy for customers with novice skills on the Internet to purchase and watch streaming movies. Customers should be able to purchase and watch a pre-determined movie in under 3 minutes.,US,usability,6
+REQ_0475,5,The product shall be easy to learn by Adjusters and Collision Estimators. The product shall be learned with two days onsite training,US,usability,2
+REQ_0478,2,The product shall be installed by an untrained realtor without recourse to separately-printed instructions.,US,usability,4
+REQ_0479,1,The product shall be intuitive and self-explanatory. 90% of new users shall be able to start the display of Events or Activities within 90 minutes of using the product.,US,usability,4
+REQ_0480,10,The product shall be intuitive and self-explanatory. Nine out ten users shall be able to successfully complete a game with no training.,US,usability,5
+REQ_0481,6,The product shall be translated into foreign languages other than the target market countries92 languages in future releases. For each emerging target market it shall take no more than 5 days to configure the product for that market92s language.,US,usability,3
+REQ_0482,6,The product shall conform to the Americans with Disabilities Act.,US,usability,5
+REQ_0484,5,The product shall increase productivity of Collision Estimators. 80% of the Collision Estimators shall agree their productivity has increase within 1 month of using the product.,US,usability,7
+REQ_0485,6,The product shall make the users want to use it. 80% of the users surveyed report they are regularly using the product after the first 2 weeks post-launch.,US,usability,7
+REQ_0486,12,The product shall provide Error Tracking Services.The product shall help the System Administrators and DBAs to resolve transaction errors 99% of the time.,US,usability,6
+REQ_0487,12,The product shall provide Monitoring Services.The product shall be easy for System Administrators and DBAs to use after two weeks of usage.,US,usability,6
+REQ_0488,12,The product shall provide Portals.The product shall help System Administrators to analyze the transactions with ad-hoc reporting and KPIs (Key Performance Indicators),US,usability,10
+REQ_0489,8,The product shall retain the customer92s buying preferences and information.,US,usability,6
+REQ_0490,6,The product shall use a standard navigation menu familiar to most web users.,US,usability,8
+REQ_0491,2,The product shall use symbols and words that are naturally understandable by the realtor community.,US,usability,4
+REQ_0492,8,The product shall use symbols and words that are naturally understandable by users familiar with websites,US,usability,2
+REQ_0493,8,The product should be able to be used by 90% of novice users on the Internet.,US,usability,10
+REQ_0494,19,The system must be easy to use by both managers and chefs such that they do not need to read an extensive amount of manuals.,US,usability,8
+REQ_0495,19,The system must be intuitive and simple in the way it displays all relevant data and relationships.,US,usability,5
+REQ_0496,19,The system must be quickly accessible by both managers and chefs.,US,usability,6
+REQ_0497,13,The system must use a point and click interface. 100% of all selection and navigation functionality must be able to be activated/selected by either a mouse or a keyboard,US,usability,8
+REQ_0498,25,The system shall allow the user to scroll the campus map from the campus map tab.,US,usability,3
+REQ_0500,11,The system shall be easy to use by callers and supervisors. Callers and supervisors must be able to accomplish any system task within 2 minutes.,US,usability,1
+REQ_0501,3,The system shall be easy to use by the Program Administrators/Nursing Staff Members.,US,usability,10
+REQ_0502,2,The system shall be intuitive and self explanatory.,US,usability,4
+REQ_0503,3,The system shall be intuitive to the Program Administrators/Nursing Staff Members.,US,usability,3
+REQ_0504,2,The system shall be used by realtors with no training.,US,usability,1
+REQ_0505,46,The system shall confirm all transactions with the customer’s web browser.,US,usability,10
+REQ_0506,16,The system shall have a help system that offers tips and explanation for each screen and each item on the screens upon demand.,US,usability,8
+REQ_0507,3,The system shall help the user avoid making mistakes while scheduling classes and clinicals for the nursing students.,US,usability,7
+REQ_0508,46,The system shall provide a digital image for each product in the product catalog.,US,usability,2
+REQ_0510,46,The system shall provide handicap access.,US,usability,6
+REQ_0511,46,The system shall provide multi language support.,US,usability,4
+REQ_0513,3,The system shall use symbols and words that are naturally understandable by the user community.,US,usability,10
+REQ_0514,35,The system should need to be entirely self-supporting since the users would be using it only to register courses.,US,usability,1
+REQ_0515,48,The user interface of the system should be very user friendly.,US,usability,2
+REQ_0516,5,The user shall easily locate instructions while using the product. User help can be found within 90% of the system.,US,usability,1
+REQ_0517,15,The users should be able to easily use the system to successfully complete their budgets within the stipulated time for completion. With a week of training prior to product implementation 98% of the users shall complete their budgets within the stipulated time.,US,usability,3
+REQ_0518,3,The verbiage used within the system shall be consistent with Standard English and the terminology of the national Nursing Community.,US,usability,8
+REQ_0519,8,The website will provide a help section with answers and solutions to common problems.,US,usability,7
+REQ_0520,8,The website will use standard Internet conventions when interacting with the user.,US,usability,7
+REQ_0521,14,Users shall be able to reach the 91add92 91drop92 and 91trade player92 pages with one click from the team owner92s page.,US,usability,10
+REQ_0522,14,Users shall be able to view at least 25 NFL player statistics and points on each page.,US,usability,8
+REQ_0523,5,Users shall feel satisfied using the product. 85% of all users will be satisfied with the product.,US,usability,2
+REQ_0524,8,Users should be able to access their streaming movies in under 2 clicks after logging into the website.,US,usability,3
+REQ_0525,8,Users should only have to navigate through a maximum of 4 pages to create an account with the website.,US,usability,4

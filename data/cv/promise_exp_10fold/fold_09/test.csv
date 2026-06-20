@@ -1,0 +1,53 @@
+sample_id,project_id,text,label_code,label_name,fold
+REQ_0001,8,All movies shall be streamed on demand at any time of the day.,A,availability,9
+REQ_0019,37,The software is available for use from the supermarket opening time to the closing time.,A,availability,9
+REQ_0022,36,The system shall be available 99.5% of the time.,A,availability,9
+REQ_0045,27,The system shall be capable of restoring itself to its previous state in the event of failure (e.g. a system crash or power loss).,FT,fault_tolerance,9
+REQ_0048,8,The website shall continue to operate if the payment gateway goes down.,FT,fault_tolerance,9
+REQ_0057,8,The PHP code will comply with PEAR standards.,L,legal,9
+REQ_0065,4,All screens created as part of the Disputes application must comply with corporate standards for interface creation.,LF,look_and_feel,9
+REQ_0067,14,Each page shall contain a navigation menu which shows the index into which the current page is contained.,LF,look_and_feel,9
+REQ_0068,14,Each page shall contain a similar format with action items in one location and navigation buttons in a different location.,LF,look_and_feel,9
+REQ_0104,8,The website design should be modern clean and concise.,LF,look_and_feel,9
+REQ_0108,8,The website should cater to all tribes in Nigeria.,LF,look_and_feel,9
+REQ_0116,36,All source code shall adhere to an agreed upon and well-defined set of coding standards for each development language used.,MN,maintainability,9
+REQ_0132,11,The product shall be internet browser independent.The product must run using Internet Explorer and Netscape Navigator.,MN,maintainability,9
+REQ_0138,15,98% of the user workstations shall meet the minimum hardware requirements prior to implementation. Minimum Hard Disk Space: 400MB.,O,operational,9
+REQ_0140,6,A database management system such as Oracle DB2 MySql or HSQL will need to be integrated with the product.,O,operational,9
+REQ_0159,4,The Disputes applications shall interface with the Merchant Information Database. The Merchant Information Database provides detailed information with regard to the merchant. All merchant detail information shall be obtained from the Merchant Information Database.,O,operational,9
+REQ_0165,14,The application shall run on a web application server.,O,operational,9
+REQ_0179,5,The product shall adhere to the corporate Architecture guidelines,O,operational,9
+REQ_0185,12,The product shall be platform independent.The product shall enable access to any type of development environment and platform.,O,operational,9
+REQ_0189,5,The product shall interface with the Choice Parts System. This provides the feed of recycled parts data.,O,operational,9
+REQ_0204,3,The system shall operate within the Windows XP Professional operating system.,O,operational,9
+REQ_0220,9,For leads that process longer than 25 seconds the system will record the event and duration,PE,performance,9
+REQ_0228,20,Responses to queries shall take no longer than 7 seconds to load onto the screen after the user submits the query.,PE,performance,9
+REQ_0246,46,The performance shall depend upon hardware components of the client/customer.,PE,performance,9
+REQ_0261,2,The product shall synchronize with the office system every hour.,PE,performance,9
+REQ_0263,5,The recycled parts audit report shall be returned to the user within 10 seconds. The audit report shall be returned within 10 seconds.,PE,performance,9
+REQ_0270,2,The search results shall be returned no later 30 seconds after the user has entered the search criteria,PE,performance,9
+REQ_0272,48,The system may be throttled or slowed down on heavy loads to ensure service for everybody. By throttling is meant that certain functionality may be unavailable during heavy server load.,PE,performance,9
+REQ_0287,2,The product is expected to run on Windows CE and Palm operating systems.,PO,portability,9
+REQ_0306,6,The product shall be expected to operate for at least 5 years for each customer installation.,SC,scalability,9
+REQ_0315,3,system shall be able to handle all of the user requests/usage during business hours.,SC,scalability,9
+REQ_0323,27,A waiter password used for tablet login must have a bit-strength of at least 64 bits.,SE,security,9
+REQ_0344,2,Every user of the system shall be authenticated and authorized.,SE,security,9
+REQ_0345,35,Everyone (stakeholders and guests) can have access to the system and the catalogue. Every client must have secure and private access to his/her data. The and the service man can have access to every part of the system. All these accesses (except the “guest tour” access) require identification through ID and password.,SE,security,9
+REQ_0352,5,One insurance company shall not be able to view another insurance companys claim data.,SE,security,9
+REQ_0354,5,Only adjusters with a supervisor role can update preferred repair facility ratings. Users without the supervisor role cannot access the repair facility ratings.,SE,security,9
+REQ_0374,34,Sensitive data will be encrypted before being sent over insecure connections like the internet.,SE,security,9
+REQ_0382,4,The Disputes application shall ensure that only authorized users are allowed to logon to the application.,SE,security,9
+REQ_0391,46,The customer’s web browser shall never display a customer’s password. It shall always be echoed with special characters representing typed characters.,SE,security,9
+REQ_0405,6,The product shall prevent the input of malicious data. The product and/or adjacent hardware/software systems92 data shall remain 100% uncorrupted each time malicious data is input into the product.,SE,security,9
+REQ_0416,13,The system shall only be accessed by authorized Corporate Community Grants (CCR) employees. Users must be authenticated using their IBM intranet user name and password.,SE,security,9
+REQ_0428,46,The system’s back-end databases shall be encrypted.,SE,security,9
+REQ_0429,46,The system’s back-end servers shall never display a customer’s password. The customer’s password may be reset but never shown.,SE,security,9
+REQ_0432,8,The website shall make its user aware of its information practices before collection data from them via a Privacy Policy accessible on all pages of the website.,SE,security,9
+REQ_0445,2,90% of untrained realtors shall be able to install the product on their device without printed instructions,US,usability,9
+REQ_0466,19,The menus of the system must be easily navigable by the users with buttons that are easy to understand.,US,usability,9
+REQ_0476,5,The product shall be easy to use by Adjusters and Collision Estimators. 95% of Adjusters and Collision Estimators shall find the product easy to use.,US,usability,9
+REQ_0477,6,The product shall be easy to use. 90% of users will be able to successfully reserve a conference room within 5 minutes of product use.,US,usability,9
+REQ_0483,6,The product shall give users feedback when necessary. 80% of the users surveyed report that the product accurately confirms their actions.,US,usability,9
+REQ_0499,11,The system shall be easy to learn by callers and supervisors. Callers and supervisors shall learn how to use the system within 10 minutes.,US,usability,9
+REQ_0509,25,The system shall provide a way to return to the startup screen.,US,usability,9
+REQ_0512,46,The system shall provide use of icons and toolbars.,US,usability,9
