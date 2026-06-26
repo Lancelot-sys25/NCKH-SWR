@@ -39,7 +39,8 @@ def normalized_states(model: QuantumInspiredContrastiveNFRClassifier, texts: np.
 
 def projection_label_score(model: QuantumInspiredContrastiveNFRClassifier, state: np.ndarray, label_index: int) -> float:
     amplitude = float(state @ model.label_basis_[label_index])
-    raw = model.score_scale * amplitude + float(model.label_bias_[label_index])
+    rectified_projection = max(0.0, amplitude) ** 2
+    raw = model.score_scale * rectified_projection + float(model.label_bias_[label_index])
     return float(model._sigmoid(raw))
 
 
@@ -104,7 +105,7 @@ def deletion_comparison(
                 {
                     "sample_index": sample_index,
                     "label": label,
-                    "explainer": "projection_intrinsic",
+                    "explainer": "contrastive_projection_intrinsic",
                     "base_score": base_score,
                     "top_deleted_score": top_score,
                     "random_deleted_score": float(np.mean(random_scores)),
@@ -240,7 +241,7 @@ def write_report(
         "",
         f"- Dataset: `{raw_path}`",
         "- Split: same 70/30 train-test seed and internal validation protocol as the single-split experiment.",
-        "- Deletion comparison: projection intrinsic contributions versus SVM TF-IDF coefficient contributions.",
+        "- Deletion comparison: contrastive projection intrinsic contributions versus SVM TF-IDF coefficient contributions.",
         "- Bootstrap: paired bootstrap over held-out test requirements for Macro-F1 differences.",
         "",
         "## Deletion Comparison Summary",
@@ -306,7 +307,7 @@ def main() -> None:
         )
     )
     projection_model = QuantumInspiredContrastiveNFRClassifier(random_state=args.seed)
-    hybrid_model = HybridQuantumSVMNFRClassifier(random_state=args.seed, quantum_weight=0.15)
+    hybrid_model = HybridQuantumSVMNFRClassifier(random_state=args.seed, quantum_weight=0.30)
 
     models = {
         "tfidf_logistic_regression": logistic_model,

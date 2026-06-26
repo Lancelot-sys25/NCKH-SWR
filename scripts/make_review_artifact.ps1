@@ -14,7 +14,6 @@ if (Test-Path -LiteralPath $staging) {
 New-Item -ItemType Directory -Path $staging | Out-Null
 
 $include = @(
-    "README.md",
     "requirements.txt",
     "pyproject.toml",
     "src",
@@ -42,7 +41,7 @@ foreach ($item in $include) {
     Copy-Item -LiteralPath $source -Destination $destination -Recurse -Force
 }
 
-$readme = @"
+$readme = @'
 # Review Artifact
 
 This anonymized artifact contains the implementation, scripts, data files, and
@@ -59,7 +58,8 @@ python -m venv .venv
 ```
 
 The main paper source is in `paper/main.tex`.
-"@
+'@
+$readme | Set-Content -LiteralPath (Join-Path $staging "README.md") -Encoding UTF8
 $readme | Set-Content -LiteralPath (Join-Path $staging "ARTIFACT_README.md") -Encoding UTF8
 
 New-Item -ItemType Directory -Path (Split-Path -Parent $output) -Force | Out-Null
